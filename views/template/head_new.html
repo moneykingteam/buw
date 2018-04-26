@@ -1,0 +1,17 @@
+<head>
+    <title>{{# def.page_title || 'The Social Bustabit Official Website' }} -- Bustabit.club</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Bustabit Club is Official Bitcoin Gambling Website. Bustabit Club is Soical, Time, Luck and Skill">
+    <meta name="keywords" content="Social, Time, Lucky, Play, Watch, Real Bitcoin Game">
+    <meta name="web_author" content="BustabitClub Ltd">
+    <meta name="language" content="English Korean Chinese">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"/>
+    {{?it.table}}
+        <link rel="stylesheet" href="/css/{{? it.buildConfig }}{{=it.buildConfig['game-new.css']}}{{??}}game.css{{?}}" />
+    {{??}}
+        <link rel="stylesheet" href="{{? it.buildConfig }} /css/{{=it.buildConfig['app-new.css']}} {{??}} /css/app.css {{?}}" />
+    {{?}}
+</head>

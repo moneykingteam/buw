@@ -1,0 +1,960 @@
+msgid ""
+msgstr ""
+
+msgid "bustabitclub"
+msgstr "부스타빗클럽"
+
+msgid "Leaderboard"
+msgstr "리더보드"
+
+msgid "Stats"
+msgstr "통계"
+
+msgid "FAQ"
+msgstr "질문"
+
+#: index.html+div.div.div.h1:8
+msgid "The Social Gambling Game"
+msgstr "      소셜 그래프 게임      "
+
+#: index.html+div.div.div.div:12
+msgid "Play Now!"
+msgstr "게임시작!"
+
+msgid "Play with the old theme!"
+msgstr "고전테마로 게임하기!"
+
+#: index.html+div.div.div.h4:29
+msgid "Luck"
+msgstr "운수"
+
+msgid "Skill"
+msgstr "기술"
+
+#: index.html+div.div.div.p:30
+msgid "Play for fun! Or play to win!"
+msgstr "승리의 기쁨을 누려보세요!"
+
+msgid "See strategy guide"
+msgstr "전략가이드보기"
+
+#: index.html+div.div.div.h4:39
+msgid "Real Time"
+msgstr "실시간"
+
+#: index.html+div.div.div.p.br:40
+msgid "Watch your fortune rise<br > in real time!"
+msgstr "실시간으로<br> 당신의 행운이 상승합니다!"
+
+#: index.html+div.div.div.h4:48
+msgid "Secure"
+msgstr "보안"
+
+#: index.html+div.div.div.p:49
+msgid "Offline storage"
+msgstr "오프라인저장"
+
+msgid "Provably fair"
+msgstr "증명가능한 공정성"
+
+msgid "Razor thin"
+msgstr "세밀한"
+
+msgid "house edge"
+msgstr "우승확률"
+
+msgid "between 0 and 1%"
+msgstr "0과 1사이"
+
+#: index.html+div.div.div.h4:59
+msgid "Social"
+msgstr "소셜"
+
+#: index.html+div.div.div.p:60
+msgid "Play with friends<br /> and beat your foes"
+msgstr "친구들과 함께<br /> 즐거움을 나누세요"
+
+msgid "Register"
+msgstr "회원가입"
+
+msgid "Log in"
+msgstr "로그인"
+
+msgid "Strategy Guide"
+msgstr "전략가이드"
+
+msgid "input captcha"
+msgstr "캡챠를 입력하세요"
+
+msgid ""
+"<b>Bustabit</b> is a game of 99% luck, but 1% skill. This means that if you "
+"play in a strategy-oblivious way, you'll not do too bad. But with a good "
+"enough strategy, it's actually possible to overcome the house odds, and even "
+"make a profit."
+msgstr "<b>부스타빗</b> 은 99%의 운과 1%의 기술로 진행됩니다. 충분히 전략을 세훈 후 게임에 임하게 되면 괜찮은 수준의 이익을 창출할 수 있을 것입니다."
+
+msgid "Here's how it works:"
+msgstr "아래의 요소들을 고려하여 전략을 세우기 바랍니다."
+
+msgid ""
+"Right off the bat, there's a <b>1%</b> chance of the game instantly busting. "
+"If this happens, no one can win anything. This means bustabit.club has an "
+"expected return of <code>1% * playersInGame * tableAmount</code>. This is "
+"the <b>exact amount</b> bustabit uses to give out bonuses."
+msgstr "모든 게임은 <b>1%</b>확률로 시작 즉시 종료될 수 있습니다. 이 경우 아무도 수익을 가져갈 수 없는데, 해당 금액은 <code>1% * 게임에 참여한 사용자 수 * 베팅금</code> 에 해당하며 보너스를 분배하기위한 자금으로 사용됩니다."
+
+msgid "Instabust"
+msgstr "즉시종료"
+
+msgid "House Edge"
+msgstr "환수율"
+
+msgid "It scales between 0 and 1%"
+msgstr "환수율은 0% ~ 1% 사이로 결정됩니다."
+
+msgid "see: odds and calculator."
+msgstr "확률계산기를 이용해주세요."
+
+msgid "This is what you need to overcome!"
+msgstr "환수율을 극복할 수 있는 방법을 찾을 수 있을것입니다."
+
+msgid "Bonuses"
+msgstr "보너스"
+
+msgid ""
+"The last person to <b>cash out</b> before a bust gets a bonus, which on "
+"average is exactly the same as the server makes from the instabust"
+msgstr "종료배당이 결정되기 전 마지막으로 정지(cash out)한 사용자가 보너스를 가져가는데, 평균적으로 0.00x 배당 으로 즉시 종료된 게임에서 발생되는 금액 수준입니다."
+
+msgid "see: faq"
+msgstr "FAQ 참고"
+
+msgid ""
+"Strategic play revolves completely around "
+"trying to get this bonus. If no one collects the bonus, it <b>rolls to the "
+"next game.</b>"
+msgstr "보너스를 이용하여 전략을 세우는 것도 한 방법이며, 만약 아무도 보너스를 얻지 못한경우 다음 게임으로 보너스 금액이 이월됩니다."
+
+msgid "Single Player Game"
+msgstr "혼자 하는 게임"
+
+msgid ""
+"If you're playing a game, and no one else joins, it's not possible to "
+"overcome the <b>house odds</b>, and it becomes a simple game of luck."
+msgstr "만약 아무도 참여하지 않은 상태로 혼자 게임을 진행하게 된다면, 오로지 행운으로만 게임을 플레이하게 됩니다."
+
+msgid "Simple Greedy Strategy"
+msgstr "간단한 욕심쟁이 전략"
+
+msgid ""
+"Hold in the game, as soon as you're the last person holding, cash out "
+"immediately. This is a great strategy if all your opponents are "
+"conservative, and cash out early. However, if you play against someone with "
+"the same strategy -- <b>you will both will infinitely hold, and never win "
+"the bonus.</b>"
+msgstr "배당이 오르는 동안, 마지막 남은 한명이 될 때까지 기다렸다가 마지막 한명이 되는 순간 멈춰(cash out)보세요. 다른 사용자가 낮은 배당에서 안정적인 플레이를 한다면 훌륭한 전략이 될 수 있습니다. 하지만 동일한 전략을 구사하는 사용자가 더 있을 경우 <b>둘 이상의 사용자가 멈추지 않기 때문에 승리하지 못하게될 수 있습니다.</b>"
+
+msgid "Odds Calculator"
+msgstr "확률계산기"
+
+msgid "Loading Calculator..."
+msgstr "계산기 로딩중..."
+
+msgid "Frequently Asked Questions"
+msgstr "자주 하는 질문"
+
+msgid "How to play?"
+msgstr "게임은 어떻게 진행하나요?"
+
+msgid "What is a bit?"
+msgstr "bit 는 무엇인가요?"
+
+msgid "How can I get free bits?"
+msgstr "무료비트를 어떻게 얻나요?"
+
+msgid "How do I deposit bits?"
+msgstr "bit 는 어떻게 입금하나요?"
+
+msgid "How long is the deposit address valid for?"
+msgstr "입금 계좌는 얼마나 오랫동안 사용 가능한가요?"
+
+msgid "How long for deposits to be credited to account?"
+msgstr "비트코인을 입금하면 얼마나 기다려야 게임에 사용 가능한가요?"
+
+msgid "How do I withdraw bits?"
+msgstr "bit 를 출금하고 싶은데 어떻게 하나요?"
+
+msgid "What is Gross Profit?"
+msgstr "총 수익이란 무엇인가요?"
+
+msgid "What happens if I disconnect form the game?"
+msgstr "게임 플레이 중 갑자기 게임페이지에서 연결이 끊어지면 어떻게 하나요?"
+
+msgid "How high can the game go?"
+msgstr "게임 배당은 상한선이 있나요?"
+
+msgid "What is the most I can bet?"
+msgstr "베팅의 상한선이 있나요?"
+
+msgid "What is the bonus?"
+msgstr "보너스란 무엇인가요?"
+
+msgid "What are the game odds?"
+msgstr "환수율은 어떻게 되나요?"
+
+msgid "How is the game bust calculated?"
+msgstr "종료배당은 어떻게 결정되나요?"
+
+msgid "Is the game fair?"
+msgstr "공정한 게임인가요?"
+
+msgid "How to verify the game results?"
+msgstr "게임결과를 어떻게 확인하나요?"
+
+msgid "What happens when the server forces people to cash out?"
+msgstr "서버가 사용자 종료베팅을 강제 설정(cash out)하여 배당을 지급하는 경우는 어떤 경우인가요?"
+
+msgid "What other gambling places do you recommend?"
+msgstr "당신이 추천하는 다른 도박장은 무엇인가요?"
+
+msgid "Gambling Addiction"
+msgstr "도박중독"
+
+msgid "Basics"
+msgstr "기초"
+
+msgid "What is bitcoin gambling?"
+msgstr "비트코인도박이란 무엇인가요?"
+
+msgid ""
+"Bitcoin gambling is a general term for any type of gambling wherein bets are placed in units of"
+" bitcoins as opposed to a fiat currency or any other asset. Learn more about"
+" the history of <a href=\"online-gambling-meets-bitcoin\">online gambling and bitcoin</a>."
+msgstr "비트코인도박은 평범한 통화 또는 다른 자산과는 달리 비트코인을 단위로 하여 베팅을하는 도박 유형에 대한 일반적인 용어입니다. <a href=\"online-gambling-meets-bitcoin\">온라인도박 및 비트코인</a>의 역사에 대하여 자세히 알아보십시오."
+
+msgid ""
+"Place a bet. Watch the multiplier increase from 1x upwards! Cash out any "
+"time to get your bet multiplied by that multiplier. But be careful because "
+"the game can bust at any time, and you'll get nothing!"
+msgstr "우선 비트코인을 베팅합니다. 그래프와 함께 기재된 숫자가 1x 부터 증가하는 것을 주시하다가 원하는 시점에 정지합니다. 정지한 시점에 그래프 옆에 기재된 숫자는 배당으로, 정지한 시점의 배당만큼 당첨금을 수령할 수 있습니다.만약 정지하기 전에 그래프가 먼저 멈춰버린다면 당첨금은 없으므로, 정지 시점을 신중하게 결정하시기 바랍니다."
+
+msgid ""
+"A bit is a millionth of a bitcoin or 100 satoshis. At the time of this "
+"writing, a single bit is worth roughly $0.0003 USD. You are able to deposit "
+"and withdraw bits at any time by going to your <a href=\"/account\">account "
+"page</a>."
+msgstr "1 bit = 1,000,000 BTC 의 단위입니다. bustabit 의 게임은 bit로 진행되며 비트코인을 <a href=\"/account\">사용자 계정 페이지</a>에 기재된전용 비트코인 계좌로 비트코인을 송금하는 방식으로 획득할 수 있습니다."
+
+msgid ""
+"Every hour you can claim 2 free bits on your account page. We do this so "
+"that you may test and enjoy the game without any commitment. There are no "
+"strings attached, you may withdraw this money if you so please, but we ask "
+"you to refrain from abusing this feature."
+msgstr "1 시간마다 계정 페이지에서 2개의 무료비트 사용을 요청할 수 있습니다. 우리는 당신이 어떤 헌신도없이 게임을 테스트하고 즐길 수 있도록 합니다. 이 금액을 인출 할 수 있지만이 기능을 남용하지 말 것을 요청합니다."
+
+msgid "Deposits"
+msgstr "입금"
+
+msgid ""
+"You will need to transfer bitcoins to the deposit address on your account "
+"page. If you do not have any bitcoins, we can recommend <a href=\""
+"https://coinbase.com\">Coinbase</a> if you are in the US (although the "
+"registration process is lengthy). Another great option is <a href=\""
+"https://localbitcoins.com/\">LocalBitcoins.com</a>, which lists traders in "
+"your area willing to sell (or buy) bitcoins. You can also search online to "
+"see if there are any bitcoin ATMs near you. And remember, you can withdraw "
+"directly to the bitcoin address on your account page!"
+msgstr "bit는 사용자 계정 페이지에 기재된 전용 비트코인 계좌로 비트코인을 송금하여 획득 가능합니다. bustabit 은 비트코인 구입과 송금에 <a href=\"https://localbitcoins.com/\">LocalBitcoins.com</a> 를 추천합니다. 또는 온라인 검색을 통해 비트코인 거래 사이트를 선택하여전용 비트코인 계좌로 비트코인을 송금하면 됩니다."
+
+msgid "How long is the deposit address valid?"
+msgstr "입금주소의 유효기간은 얼마나요?"
+
+msgid ""
+"It is <strong>permanently</strong> attached to your account. You can save "
+"it, or use it for automatic funding, or whatever else you like. All payments "
+"to this address will be automatically credited to your account."
+msgstr "전용 비트코인 계좌는 <strong>반 영구적으로</strong> 사용 가능합니다. 언제든 입금과 출금이 가능하며, 입금된 비트코인은 언제든지게임을 플레이하는데 사용 가능합니다."
+
+msgid "How long do deposits take to be credited?"
+msgstr "예금은 얼마나 오래동안 입금 되나요?"
+
+msgid ""
+"We instantly credit accounts upon a single confirmation, which on average is "
+"approximately 10 minutes from the time of the transaction."
+msgstr "비트코인의 송금처리가 완료되면 그 즉시 게임에서 사용 가능합니다. 적게는 수분에서 길게는 몇시간의 송금처리 완료에 시간이 소요됩니다."
+
+msgid ""
+"On your account page, you can transfer bits to any bitcoin address you want. "
+"Small withdrawals (i.e. smaller than the balance of our hot-wallet) are "
+"processed instantly and you will be given the transaction ID immediately."
+msgstr "계정 페이지에서 원하는 비트 코인 주소로 비트를 전송할 수 있습니다. 소액 인출 (예 : 우리의 지갑 잔액보다 작음)은 즉시 처리되며 거래 ID가 즉시 제공됩니다."
+
+msgid ""
+"Larger withdrawals will be shown in your withdrawal page as \"PENDING\" and "
+"will require us to manually remove sufficient funds from our cold storage. "
+"Usually this process will take less than two hours, but may take up to 24 "
+"hours, depending on the time of day and other circumstances."
+msgstr "큰 인출은 인출 페이지에 \"보류 중\"으로 표시되며 우리는 수동으로 계좌에서 충분한 자금을 제거해야합니다. 일반적으로이 프로세스는 2 시간 미만이 소요되지만 시간 및 기타 상황에 따라 최대 24 시간이 소요될 수 있습니다."
+
+msgid ""
+"We remove 100 bits (about 0.05 USD) from any withdrawal amount to cover "
+"mining fees. We charge this amount <strong>regardless</strong> of the actual "
+"mining fees attached to the transaction, which may be more or less than "
+"this, depending on the block competition at the time of your withdrawal."
+msgstr "채굴비용을 충당하기 위해 인출 금액에서 100 비트 (약 0.05 USD)를 제외합니다. 귀하의 인출 시점의 블록 경쟁에 따라 거래 금액에 관계없이 트랜잭션에 부합되는 실제 채굴비용과 <strong>상관없이</strong> 즉 거래금액에 관계없이 이 금액을 청구합니다."
+
+msgid ""
+"Withdrawals must be in increments of 1 bit (100 satoshis), with a minimum "
+"withdrawal of 200 bits (of which 100 bits goes towards the mining fee). As "
+"required, we will chip in our own money to help expedite confirmation time, "
+"such that we typically pay 200 bits in mining fees, despite charging you "
+"only 100 bits."
+msgstr "인출은 최소 1 비트 (100 satoshis) 씩 증가해야하며 최소 200 비트 (100 비트는 채굴 비용쪽으로 이동)가 필요합니다. 필요에 따라 확인 시간을 단축하는 데 도움이되도록 자체 자금을 칩에 담아서 100 비트 만 청구하더라도 일반적으로 광업비로 200 비트를 지불합니다."
+
+msgid "What is gross profit?"
+msgstr "총 수익이란 무엇인가요?"
+
+msgid ""
+"Gross profit refers to the sum of the profit from each game you've played "
+"without considering your loses."
+msgstr "총 수익은 사용자가 게임을 플레이하며 발생한 모든 수익을 의미합니다. 총 수익에는 손해금액은 포함되지 않습니다."
+
+msgid "Game"
+msgstr "게임"
+
+msgid "What happens if I disconnect from the game?"
+msgstr "게임에서 연결을 해제하면 어떻게 되나요?"
+
+msgid ""
+"Upon detecting that you have disconnected we cash you out (assuming the game "
+"is still in progress). Regardless of whether your client is connected or "
+"not, the <em>auto cash-out</em> feature will work as expected (it happens on "
+"the server), and we highly recommend you use it if internet reliability or "
+"performance is a concern."
+msgstr "사용자의 연결이 끊어짐이 감지되면, 그 감지된 그 시점에서의 배당으로 자동 게임 정지가 됩니다. (게임이 진행중인 경우) 부스타빗 은 게임을 플레이 하기전에안정적인 인터넷 연결 환경의 구축을 권장합니다."
+
+msgid ""
+"There's no real limit! However, if during a game we ever are facing a net "
+"loss of 3% of the bankroll or greater, the server will automatically cash "
+"out all players still in the game, forcing them to enjoy an early win and a "
+"sizeable profit. You can see in game what the current max win is (in the "
+"bottom right of the chart)"
+msgstr "게임 베당에는 상한선이 없습니다! 하지만, 당첨금의 제한은 게임사 전체 보유금액의 3%로 제한됩니다. 게임 서버는 매번 플레이마다 당첨금 상한선을 기재하여사용자가 인지할 수 있도록 합니다. 만약, 사용자의 당첨금이 당첨금 상한선을 넘어가게 되면, 사용자가 게임을 정지하지 않아도 상한선 배당에서 자동으로 정지되어당첨금 상한선의 당첨금을 수령하도록 합니다."
+
+msgid "We currently have a bet limit of 1,000,000 bits (1 BTC)."
+msgstr "현재 베팅 상한선은 1,000,000 bits (1 BTC) 입니다."
+
+msgid ""
+"The bonus is a special prize that is awarded to the last people to cash out "
+"before the game busted. Getting the bonus is critical to skillful playing of "
+"bustabit, as it is the <strong>only</strong> way to overcome house odds."
+msgstr "보너스는 경기가 끝나기 전에 마지막 사람들에게 현금으로 지급되는 특별 상입니다. 보너스를 얻는 것은 집의 어려움을 극복하는 <strong>유일한</strong> 방법이기 때문에 부스타빗을 능숙하게 플레이하는 데서 중요합니다."
+
+msgid ""
+"1% of each player's stake goes into the bonus pot. So if there are 4 "
+"players, betting 400, 300, 200, and 100, there will be 10 bits in the pot. "
+"If the biggest player wins, he gets the whole pot. The site works out the "
+"rate he would be getting if he won, ie. 400 bits bet gives 10 bits bonus - "
+"or 1/40th bonus per bit bet. It then applies the same rate to whoever "
+"actually wins."
+msgstr "각 플레이어의 지분 1 %가 보너스 폿으로갑니다. 400 명, 300 명, 200 명, 100 명이 베팅 한 4 명의 플레이어가 있다면, 팟에 10 비트가 있습니다. 가장 큰 플레이어가 이기면 그는 전체 냄비를 가져옵니다. 이 사이트는 그가이긴다면 얻을 수있는 비율을 계산합니다. 400 비트 베팅은 10 비트 보너스 또는 비트 베팅 당 1/40 보너스를 제공합니다. 그런 다음 실제 승리하는 사람에게 동일한 요율을 적용합니다."
+
+msgid ""
+"So if the 100 bit player wins, he gets 1/40th of 100, or 2.5 bits. That "
+"leaves 7.5 bits in the pot, which goes to the next best placing player(s)."
+msgstr "따라서 100 비트 플레이어가 이기면 100의 1/40 또는 2.5 비트를 얻습니다. 그러면 냄비에 7.5 비트가 남겨 두어 다음으로 가장 높은 위치에있는 플레이어 (들)에게갑니다."
+
+msgid ""
+"Suppose the 200 bit player comes 2nd. He is due 1/40th of 200, or 5 bits. "
+"There are still 7.5 bits in the pot, so he gets the full 5 bits he is due - "
+"the same as if he had come in 1st place."
+msgstr "200 비트 플레이어가 2 위를 차지한다고 가정 해보십시오. 그는 만기 1 / 40th 200, 또는 5 비트입니다. 냄비에는 여전히 7.5 비트가 있기 때문에 그가 5 비트를 가져옵니다. 이는 그가 1 위를 차지한 것과 같습니다."
+
+msgid ""
+"Suppose the 300 bit player comes 3rd. He's due 7.5 bits (300/40) but there "
+"are only 2.5 bits left in the pot, so he gets those and that's all. There's "
+"nothing left for the 4th or worse place players."
+msgstr "300 비트 플레이어가 3 위를 차지한다고 가정 해보십시오. 그는 7.5 비트 (300/40)에 만기가되었지만 냄비에 남은 비트는 2.5 비트 밖에 없으므로 그는 그 비트를 얻습니다. 4 위 이하의 선수에게 남은 것은 아무것도 없습니다."
+
+msgid ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+msgstr ""
+
+msgid ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+msgstr "게임의 1 %는 즉시 흉상 (0x)이며 보너스는 수여되지 않으며 다른 모든 게임은 베팅 된 금액의 1 %에 해당하는 보너스가 있습니다."
+
+msgid "Fairness"
+msgstr "공정성"
+
+msgid ""
+"The house margin is scaled between 0 and 1 %, depending on how long you "
+"hold. An additional 1 % is effectively taken from every bet and put into the "
+"<a href=\"#bonus\">bonus pool</a>, which is distributed in its entirety "
+"every game. As a consequence, skilless or random play has—at worst—an "
+"expected return of -2 %, but it is possible to overcome the house margin by "
+"skillfully getting bonuses."
+msgstr "환수율은 부스타빗이 얻는 수익률로, 사용자 베팅액의 0% ~ 1% 사이로 설정되어 있습니다. 추가 1 %는 모든 베팅에서 효과적으로 가져와 매 게임마다 전체적으로 배분되는 <a href=\"#bonus\">보너스 풀</a>에 저장됩니다. 결과적으로, 숙련된 또는 무작위 플레이는 최악의 경우 -2 %의 기대 수익률을 보이지만 상여금을 능숙하게 얻음으로써 주택 마진을 극복 할 수 있습니다."
+
+msgid ""
+"The numbers are baked into the game, so you never need to worry about it. We "
+"do not have a fixed house margin, as this would prevent highly conservative "
+"play (e.g. If you were only attempting to make $2 in a $100 game, a house "
+"margin of 1 % would be 50 % of your potential profits!). Our unique formula "
+"makes it fair for both highly conservative play (cash out early) and highly "
+"aggressive play (hold until you're a millionaire). All games are <a href=\"#"
+"fair\">provably fair</a>."
+msgstr "모든 종료배당은 이미 결정되어 있기 때문에 베팅에 걱정할 필요가 없습니다. 예를들어 매우 안전하게 플레이 한다고 해도 별도로 이것을 막을 수 있는 방법이 bustabit 에는 없습니다. (예를 들어 100 bits 를 베팅하여 2 bits 의 수익을 내기위해 1.02x 에서 멈춘다고 하면 1%의 환수율은 잠재 수익의 50% 입니다!)bustabit 의 독창적인 환수율 공식은 매우 안전하게하는 플레이(빠른 cash out)와 공격적인 플레이 모두를 위해 공정하게 설계되어 있습니다. bustabit 의 모든 게임은 매우 <a href=\"#fair\">공정</a>합니다."
+
+msgid ""
+"The exact formula for the houses expected return is:<br /> <code>1 % * ("
+"intendedCashOut - roomAmount) * (roomAmount / intendedCashOut)</code><br /> "
+"But to really get a good sense of how this affects you, please use our handy "
+"<a href=\"/calculator\">odds calculator</a>."
+msgstr "예상 수익에 대한 정확한 공식은 아래와 같습니다.<br /> <code>1 % * (예상수익 - 베팅액) * (베팅액 / 예상수익)</code><br />이 공식이 실제로 어떻게 적용 가능한지 빠르게 감을 잡기위해 <a href=\"/calculator\">환수율 계산기</a>를 활용하면 편리합니다."
+
+msgid ""
+"The other important thing to keep in mind is that every game has a 1 % "
+"chance of instantly busting. We do not make <strong>any</strong> money on "
+"it, but rather use this to fund the bonus scheme. This is an important "
+"consideration to make if you are playing in such a way that you never win "
+"the bonus."
+msgstr "명심해야 할 또 다른 중요한 점은 모든 게임마다 즉시 파열 할 확률이 1 %라는 점입니다. 우리는 <strong>어떠한</strong> 돈을 벌지는 않지만 오히려 이것을 사용하여 보너스 제도에 자금을 지원합니다. 이것은 보너스를 결코 얻지 못하는 방식으로 플레이하는 경우 중요하게 고려해야 할 사항입니다."
+
+msgid "The code that decides the multiplier for each round is here:"
+msgstr "각 라운드의 승수를 결정하는 코드는 다음과 같습니다:"
+
+msgid "It basically does three things."
+msgstr "종료배당 산정에 3가지 단계가 있습니다."
+
+msgid ""
+"First, it mixes the hash with the clientSeed (decided by the provably fair "
+"seeding event) using hmac-sha256"
+msgstr "첫째, clientSeed (공정한 초기값 이벤트로 결정된) 를 hmac-sha256 해시와 혼합합니다."
+
+msgid "Secondly it gives a 1 in 101 chance of instant busting"
+msgstr "두번째, 종료배당의 가능성은 1부터 101사이이다."
+
+msgid ""
+"Third, it works out what the multiplier would be if there was no house edge."
+msgstr "세번째, 집 가장자리가 없다면 승수가 될 것입니다."
+
+msgid "Fourth, it takes 1% off the multiplier and adds on 0.01x:"
+msgstr "네번째, 선택된 배당의 배율을 1% 줄인 후 0.01x 배를 더해 종료배당을 결정합니다."
+
+msgid ""
+"So half the time (other than 0x bust which we can ignore because they pay "
+"for themselves with the bonus) the multiplier will be 1.99x or more."
+msgstr "따라서 전체 결과치의 절반 이상의 종료배당은 1.99x 이상입니다."
+
+msgid ""
+"That means if we bet 1.99x we have a 50% chance of winning (again, ignoring "
+"0x busts), and so the house edge is:"
+msgstr "즉, 1.99x 를 베팅하게 되는 경우 승리 확률은 50%가 되게 됩니다.앞서 설명한 예상 수익에 대한 공식에 대입하게 될 경우 아래와 같습니다."
+
+msgid ""
+"The extra 0.01 that gets added on to the multiplier is half of the 1% that "
+"was taken off in this case, leaving the house edge at 0.5%. As the "
+"multiplier gets bigger, the 1% that is taken off gets bigger, and the 0.01x "
+"that gets added on becomes less and less significant, causing the house edge "
+"to tend to 1%"
+msgstr "곱셈기에 추가되는 0.01은이 경우에 제거 된 1 %의 절반이며, 집 가장자리는 0.5 %입니다. 승수가 커지면이 1 %가 더 커지고 더해지는 0.01x는 덜 중요 해지고 집 가장자리가 1 %이다."
+
+msgid ""
+"Absolutely! And we can prove it. Please see: <a href=\""
+"https://bitcointalk.org/index.php?topic=922898.0\">the bitcoin talk "
+"thread</a> for technical details."
+msgstr "부스타빗은 아주 공정한 게임입니다. <a href=\"https://bitcointalk.org/index.php?topic=922898.0\">비트코인 쓰레드</a>를 통해 부스타빗의 공정성을 확인하실 수 있습니다."
+
+msgid "There are already 3rd party scripts to verify the game hashes and to calculate the results like this"
+msgstr "이미 게임 해시를 확인하고 이와 같은 결과를 계산하기위한 타사 스크립트가 있습니다"
+
+msgid ""
+"Under some circumstances the server will force people to cash out. The most "
+"common reason is that the game multiplier has gotten so large that we are "
+"risking too much of our bankroll (10 % or more). Another possible reason is "
+"unexpected server problems. If more than one person in a game is affected by "
+"the forced cash-out, we allocate the last cash-out bonus to a random player."
+msgstr "특정한 경우에 서버에서 사용자에게 강제로 베팅을 종료(cash out)시킬 수 있습니다. 대부분의 이유는 너무 커진 배당때문에 부스타빗이 실제 환전해드릴 수 있는 금액을 넘어서는 금액을 사용자가 얻게되는 경우입니다.또 다른 이유로는 서버 문제 때문입니다."
+
+msgid ""
+"A couple quick pointers: the lower the house edge the more variance you will "
+"experience which means a longer, more exciting gaming session. Bitcoin "
+"Casinos generally offer better odds, less fees and faster deposits and "
+"withdrawals than fiat based casinos. Be extremely skeptical of generous "
+"reward programs, bonuses (e.g. deposit bonuses), affiliate programs and the "
+"likes. The money comes from somewhere: you."
+msgstr "몇 가지 빠른 포인터 : 집 가장자리가 낮을수록 더 길고 흥미 진진한 게임 세션을 경험하게됩니다. Bitcoin 카지노는 일반적으로 피아트 기반 카지노보다 나은 확률, 적은 수수료 및 빠른 예금과 인출을 제공합니다. 관대 한 보상 프로그램, 보너스 (예 : 입금 보너스), 제휴 프로그램 등을 매우 회의적으로 생각하십시오. 돈은 어딘가에서 나옵니다. 당신."
+
+msgid ""
+"Instead of listing our favorites here, we'll defer to the excellent <a href="
+"\"https://thebitcoinstrip.com/\">bitcoin strip</a>"
+msgstr "여기에 즐겨 찾기를 나열하는 대신 우수한 <a href=\"https://thebitcoinstrip.com/\">bitcoin strip</a>를 사용합니다."
+
+msgid "Do you have gambling addiction?"
+msgstr "도박 중독에 빠질 수 있나요?"
+
+msgid ""
+"Gambling addiction, also known as compulsive gambling, is a type of impulse-"
+"control disorder. Compulsive gamblers can’t control the impulse to gamble, "
+"even when they know their gambling is hurting themselves or their loved "
+"ones. Gambling is all they can think about and all they want to do, no "
+"matter the consequences. Compulsive gamblers keep gambling whether they’re "
+"up or down, broke or flush, happy or depressed. Even when they know the odds "
+"are against them, even when they can’t afford to lose, people with a "
+"gambling addiction can’t “stay off the bet.”"
+msgstr "충동적인 도박이라고도하는 도박 중독은 충동 조절 장애의 한 유형입니다. 강박 도박꾼은 도박이 자신이나 사랑하는 사람에게 상처를 입혔다 고하더라도 도박에 대한 충동을 통제 할 수 없습니다. 도박은 결과에 관계없이 그들이 생각할 수있는 모든 것과 그들이 원하는 모든 것입니다. 강박 도박꾼은 그들이 위 또는 아래, 파산했거나 플러시, 행복 또는 우울을 하든지 도박을 계속합니다. 확률이 그들을 상대로하는 경우에도 그들이 잃을 여유가없는 경우에도 도박 중독을 가진 사람들은 내기를하지 못합니다."
+
+msgid ""
+"Gamblers can have a problem, however, without being totally out of control. "
+"Problem gambling is any gambling behavior that disrupts your life. If you’re "
+"preoccupied with gambling, spending more and more time and money on it, "
+"chasing losses, or gambling despite serious consequences, you have a "
+"gambling problem."
+msgstr "그러나 도박꾼들은 완전히 통제 할 수없이 문제를 겪을 수 있습니다. 문제 도박은 당신의 삶을 혼란스럽게하는 도박 행위입니다. 심각한 결과에도 불구하고 도박에 정신이 팔렸거나 더 많은 시간과 돈을 쏟아 부었거나 손실을 쫓거나 도박을하면 도박 문제가 있습니다."
+
+msgid ""
+"If you think you have this problem please visit one of these sites to get "
+"assistance:"
+msgstr "이 문제가 있다고 생각되면 다음 사이트 중 한 곳을 방문하여 도움을 받으십시오."
+
+msgid "Up"
+msgstr "위로"
+
+msgid "Top 100 players"
+msgstr "상위 100명의 플레이어"
+
+msgid "Rank"
+msgstr "랭크"
+
+msgid "Player"
+msgstr "플레이어"
+
+msgid "Gross Profit"
+msgstr "총수익"
+
+msgid "Net Profit"
+msgstr "순이익"
+
+msgid "Top"
+msgstr "위로"
+
+msgid "Statistics"
+msgstr "통계"
+
+msgid "Pending Withdraws:"
+msgstr "대기중인 인출:"
+
+msgid "withdrawals that require admin to look at"
+msgstr "관리자가 볼 것을 요구하는 인출"
+
+
+msgid "Unterminated Games:"
+msgstr "종료되지 않은 게임:"
+
+msgid "games that require admin to look at"
+msgstr "관리자가 볼 것을 요구하는 게임"
+
+msgid "Deposits:"
+msgstr "예금:"
+
+msgid "Withdrawals:"
+msgstr "출금:"
+
+msgid "Net:"
+msgstr "수익:"
+
+msgid "Total Wagered:"
+msgstr "총 내기:"
+
+msgid "Players won in cashed:"
+msgstr "캐쉬합계"
+
+msgid "Players won in bonuses:"
+msgstr "보너스합계"
+
+msgid "Players won in total:"
+msgstr "총비트"
+
+msgid "Our Profit:"
+msgstr "우리의 이익"
+
+msgid "Bankroll:"
+msgstr "뱅크롤"
+
+msgid "Max win per game:"
+msgstr "게임당 최대승자수"
+
+msgid "Total Users:"
+msgstr "전체 참가자수"
+
+msgid "Total Plays:"
+msgstr "총 플레이횟수"
+
+msgid "Total Games:"
+msgstr "총 게임횟수"
+
+msgid "Create a new account "
+msgstr "새 계정 만들기"
+
+msgid "already have one?"
+msgstr "계정을 이미 가지고계신가요?"
+
+msgid "Username"
+msgstr "이름"
+
+msgid "*Recovery Email"
+msgstr "이메일"
+
+msgid "<b>* Optional</b> although we <b>strongly advise you to use one</b>, otherwise it is <b>not possible</b> to password reset!"
+msgstr "<b>* 선택 사항</b>을 <b>강력히 권합니다</b>. 그렇지 않으면 암호 재설정이 <b>불가능</b>합니다!"
+
+msgid "Password"
+msgstr "암호"
+
+msgid "Username only allowed alphanumeric, hyphen and underscore"
+msgstr "사용자이름은 영문자, 숫자, 하이픈 및 밑줄만 허용됩니다"
+
+msgid "Password should be at least 7 characters"
+msgstr "암호는 적어도 7자 이어야 합니다"
+
+msgid "Pick something secure, at least 7 characters"
+msgstr "적어도 7 자 이상의 안전한 것을 고르십시오."
+
+msgid "Captcha Authentication"
+msgstr "캡챠인증"
+
+msgid "Confirm Password"
+msgstr "암호확인"
+
+msgid "Remember me"
+msgstr "계정정보 기억"
+
+msgid "Forgot your password?"
+msgstr "암호가 생각나지 않으신가요?"
+
+msgid "Login"
+msgstr "로그인"
+
+msgid "Place bet"
+msgstr "베팅하기"
+
+msgid "Login to play"
+msgstr "로그인"
+
+msgid "information"
+msgstr "정보"
+
+msgid "Bet"
+msgstr "베팅금액"
+
+msgid "Cashed Out"
+msgstr "캐쉬결과"
+
+msgid "Bonus"
+msgstr "보너스"
+
+msgid "Profit"
+msgstr "수익"
+
+msgid "Hash"
+msgstr "해쉬코드"
+
+msgid "Players"
+msgstr "플레이어들"
+
+msgid "Games Played"
+msgstr "게임 횟수"
+
+msgid "You are not authorized to see this"
+msgstr "권한이 없습니다."
+
+msgid "Please login and try it again"
+msgstr "로그인하여 다시 시도하십시오."
+
+msgid "The page you are looking for doesn't exist..."
+msgstr "찾고있는 페이지가 존재하지 않습니다 ..."
+
+msgid "Go Home"
+msgstr "첫 페지로"
+
+msgid "Account"
+msgstr "계정"
+
+msgid "Security"
+msgstr "보안"
+
+msgid "Deposit"
+msgstr "입금"
+
+msgid "Withdraw"
+msgstr "출금"
+
+msgid "Support"
+msgstr "지원"
+
+msgid "Submit"
+msgstr "제출"
+
+msgid "Deposit Address"
+msgstr "입금주소"
+
+msgid "Public Profile"
+msgstr "프로필공개"
+
+msgid "Bitcoin link"
+msgstr "비트코인링크"
+
+msgid ""
+"Transfer bitcoins to this address to have your account credited. Accounts are only credited after <b>one bitcoin confirmation</b>"
+" which depending on external factors can take a while."
+msgstr "이 주소로 비트코인을 전송하여야 귀하의 계좌에 적립됩니다. 계정은 외부 요인에 따라 어느 정도 시간이 걸릴 수있는 <b>하나의 비트코인 확인</b> 후에 만 적립됩니다."
+
+msgid "more"
+msgstr "더보기"
+
+msgid "Account Information"
+msgstr "계정정보"
+
+msgid "Deposits"
+msgstr "입금"
+
+msgid "Withdrawals"
+msgstr "출금"
+
+msgid "Free Bits Collected"
+msgstr "무료비트얻기"
+
+msgid "Net Profit"
+msgstr "순수익"
+
+msgid "Loading Calculator..."
+msgstr "계산기적재중..."
+
+msgid "Contact Us"
+msgstr "연락처"
+
+msgid "Email"
+msgstr "이메일"
+
+msgid "Message"
+msgstr "메시지"
+
+msgid "Logout"
+msgstr "로그아웃"
+
+msgid "Deposit History"
+msgstr "입금내역"
+
+msgid "Deposit Address"
+msgstr "입금주소"
+
+msgid "Transaction"
+msgstr "트랜잭션"
+
+msgid "You don't have deposits"
+msgstr "예금이 없습니다"
+
+msgid "Error"
+msgstr "에러"
+
+msgid "Something bad happened. My humans are working to fix this mess, please come back later..."
+msgstr "무엇인가 잘못되였습니다. 에러를 수정하고있는중입니다..."
+
+msgid "Enter your email"
+msgstr "이메일을 입력하세요"
+
+msgid "Add a giveaway"
+msgstr "무료비트를 추가하세요"
+
+msgid "users"
+msgstr "사용자"
+
+msgid "back"
+msgstr "뒤로"
+
+msgid "Please enter your 2FA token"
+msgstr "2FA 토큰을 입력해주세요"
+
+msgid "Request Free Bits"
+msgstr "무료비트요청"
+
+msgid "Every hour you are able to request 2 free bits, just claim them!"
+msgstr "시간당 2 개의 무료 비트를 요청할 수 있습니다!"
+
+msgid "Password reset"
+msgstr "암호재설정"
+
+msgid "at least 7 characters"
+msgstr "최소 7문자"
+
+msgid "Confirmation"
+msgstr "확인"
+
+msgid "New Password"
+msgstr "새 암호"
+
+msgid "At least 7 characters"
+msgstr "최소 7문자"
+
+msgid "In case you've forgotten your password we can send you a link to reset it, otherwise you don't have other way to recover your account."
+msgstr "암호를 잊어 버린 경우 재설정 링크를 보낼수 있습니다. 다른 방법으로는 계정을 복구 할 수 없습니다."
+
+msgid "Recovery Email"
+msgstr "이메일"
+
+msgid "Confirmation Password"
+msgstr "암호확인"
+
+msgid "Disable Two-Factor Authentication"
+msgstr "2단계 인증 사용 안 함"
+
+msgid "To disable two-factor authentication, please enter your one-time password."
+msgstr "2단계 인증을 사용하지 않으려면 일회용 암호를 입력하세요."
+
+msgid "Enable Two-Factor Authentication"
+msgstr "2단계 인증 사용"
+
+msgid "To enable two-factor authentication, scan the following QR code or enter the secret manually, then enter your one-time password to confirm."
+msgstr "2단계 인증을 사용하려면 다음 QR 코드를 스캔하거나 비밀 번호를 수동으로 입력 한 다음 일회용 비밀번호를 입력하여 확인하십시오."
+
+msgid ""
+"If you lose your two-factor authentication codes you may be permanently locked out of your account. Ensure you backup "
+"your 2FA application, or save this QR code or secret. Do not enable 2FA unless you are sure you have a safe copy of this information"
+msgstr "이중 인증 코드를 분실 한 경우 계정에서 영구적으로 잠길 수 있습니다. 2FA 애플리케이션을 백업하거나이 QR 코드 또는 비밀번호를 저장하십시오. 이 정보의 안전한 사본을 가지고 있다고 확신하지 않는 한 2FA를 사용하지 마십시오."
+
+msgid "Need help? please contact us"
+msgstr "도움이 필요되십니까? 우리에게 문의 해주세요."
+
+msgid "Game Loading"
+msgstr "게임 로딩중"
+
+msgid "Request A Withdrawal"
+msgstr "출금요청"
+
+msgid ""
+"<strong>Note:</strong> Your withdrawal will be sent from the hot wallet, do not withdraw to any site "
+"that uses the sending address, or returns to sender, because any returns will probably be credited to a different player."
+msgstr "<strong>주의</strong> : 귀하의 출금은 핫 지갑에서 보내지거나, 송금 주소를 사용하는 사이트로 인출하지 않으며, 송금인에게 반환됩니다. 왜냐하면 수익은 아마도 다른 플레이어에게 반환되기 때문입니다."
+
+msgid "Bits amount"
+msgstr "비트"
+
+msgid "Destination Address"
+msgstr "목적주소"
+
+msgid "our password"
+msgstr "암호"
+
+msgid "Back"
+msgstr "뒤로"
+
+msgid "Request Withdraw"
+msgstr "출금요청"
+
+msgid "Withdraw History"
+msgstr "출금내역"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Created"
+msgstr "생성"
+
+msgid "Transferred"
+msgstr "전송되었습니다"
+
+msgid "You have no withdrawals in your account."
+msgstr "귀하의 계좌에는 아무러한 출금내역도 없습니다."
+
+msgid "You have made nor received any transfers."
+msgstr "귀하의 계좌에는 아무러한 전송내역도 없습니다."
+
+msgid "Send!"
+msgstr "보내기"
+
+msgid "Change"
+msgstr "변경"
+
+msgid "save"
+msgstr "보관"
+
+msgid "Disable"
+msgstr "사용 안함"
+
+msgid "Enable"
+msgstr "사용"
+
+msgid "Update Your Password"
+msgstr "암호 업데이트"
+
+msgid "Old Password"
+msgstr "기존 암호"
+
+msgid "Transfer"
+msgstr "전송"
+
+msgid "Edit Email Address"
+msgstr "이메일주소편집"
+
+msgid "2FA Code"
+msgstr "2FA 코드"
+
+msgid "Your password"
+msgstr "암호"
+
+msgid "Transfer History"
+msgstr "전송내역"
+
+msgid "Transfer Bits"
+msgstr "비트전송"
+
+msgid "From"
+msgstr "송신자"
+
+msgid "To"
+msgstr "수신자"
+
+msgid "Amount"
+msgstr "비트"
+
+msgid "Time"
+msgstr "시간"
+
+msgid "User"
+msgstr "사용자아이디"
+
+msgid "No recaptcha submitted, go back and try again..."
+msgstr "올바른 캡챠가 제출되지 않았습니다. 돌아가서 다시 시도해주세요 ..."
+
+msgid "add!"
+msgstr "추가!"
+
+msgid "Bits"
+msgstr "비트"
+
+msgid "First"
+msgstr "처음"
+
+msgid "Previous"
+msgstr "이전"
+
+msgid "Next"
+msgstr "다음"
+
+msgid "Last"
+msgstr "마지막"
+
+msgid "bits"
+msgstr "비트"
+
+msgid "Lose"
+msgstr "실패"
+
+msgid "Busted At:"
+msgstr "종료시점"
+
+msgid "Played:"
+msgstr "플레이된 시간:"

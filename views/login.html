@@ -1,0 +1,63 @@
+{{##def.page_title = 'Login' #}}
+
+{{##def.content:
+<div class="login">
+    <form action="/login" method="post">
+        <div class="row">
+            <div class="large-12 columns">
+                <label>{{=it.T("Username")}}
+                    <input type="text" name="username" required/>
+                </label>
+            </div>
+        </div>
+         <div class="row">
+            <div class="large-12 columns">
+                <label>{{=it.T("Password")}}
+                    <input type="password" name="password" required />
+                </label>
+            </div>
+         </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <label>
+                    {{=it.T("Remember me")}}
+                    <input type="checkbox" name="remember">
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <image id="captcha_img" data-url="/captcha" />
+                <a id="refresh"><img src="img/icons/refresh.png" class="flags-flag" /></a>
+                <p></p>
+                <input name="captcha" type="text" placeholder="{{=it.T('input captcha')}}">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <a class="small" href="/forgot-password?locale={{=it.locale}}">{{=it.T("Forgot your password?")}}</a>
+                <input id="loginSubmit" class="button secondary right" type="submit" value="{{=it.T('Login')}}"/>
+                <input type="hidden" name="locale" value="{{= it.locale}}" />
+            </div>
+        </div>
+
+    </form>
+</div>
+
+<script type="text/javascript">
+$('#refresh').click(function() {
+    
+    var t = $('#captcha_img');
+    var url = t.attr('data-url');
+
+    t.prop('src', url + '?_=' + (new Date().getTime()));
+});
+
+var t = $('#captcha_img');
+var url = t.attr('data-url');
+t.prop('src', url + '?_=' + (new Date().getTime()));
+
+</script>
+
+#}}
+{{#def.include('./template/main_old')}}

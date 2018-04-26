@@ -1,0 +1,50 @@
+<header>
+    <nav class="nav-top-bar">
+
+        <div class="title">
+            {{?it.locale}}
+            <a href="/?locale={{=it.locale}}">
+            {{??}}
+            <a href="/">
+            {{?}}
+                <h1 class="hide-for-small-only">{{?it.locale=="ko-KR"}}부스타빗클럽{{??it.locale=="zh-CN"}}投注比特{{??}}{{=it.T("bustabitclub")}}{{?}}</h1>
+                <h1 class="show-for-small-only">BaB</h1>
+            </a>
+        </div>
+
+        <div class="show-for-small-up user-login">
+        {{?it.user}}
+            <div class="balance-bits">
+                <span>{{=it.T("Bits")}}: </span>
+                <span class="balance" id="balance_bits">{{#def.format:{n: it.user.balance_satoshis, decimals:2} }}</span>
+            </div>
+            <div class="username">
+                {{?it.locale}}
+                <a href="/account?locale={{=it.locale}}">
+                {{??}}
+                <a href="/account">
+                {{?}}
+                {{=it.user.username}}</a>
+            </div>
+        {{??}}
+            <div class="register">
+                {{?it.locale}}
+                <a href="/register?locale={{=it.locale}}">
+                {{??}}
+                <a href="/register">
+                {{?}}
+                {{?it.locale=="ko-KR"}}회원가입{{??it.locale=="zh-CN"}}注册{{??}}{{=it.T("Register")}}{{?}}</a>
+            </div>
+            <div class="login">
+                {{?it.locale}}
+                <a href="/login?locale={{=it.locale}}">
+                {{??}}
+                <a href="/login">
+                {{?}}
+                {{?it.locale=="ko-KR"}}로그인{{??it.locale=="zh-CN"}}登陆{{??}}{{=it.T("Log in")}}{{?}}</a>
+            </div>
+        {{?}}
+        </div>
+
+    </nav>
+</header>

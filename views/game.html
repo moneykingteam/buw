@@ -1,0 +1,62 @@
+{{##def.page_title = 'Game Info' #}}
+
+{{##def.content:
+    <div class="row panel radius">
+        <h4>{{=it.T("Game")}} #<strong>{{=it.game.id}}</strong> {{=it.T("information")}}</h4>
+        <p>
+            <b>{{=it.T("Busted At:")}} </b> {{#def.format: { n: it.game.game_crash, decimals: 2 } }}x
+        </p>
+        <p>
+            <b>{{=it.T("Played:")}} </b>{{=it.game.created}} <small>{{=it.game.timeago}}</small>
+        </p>
+        <hr>
+        <h6>{{=it.T("Players")}}</h6>
+        <table class="user-table">
+          <thead>
+            <tr>
+                <td>{{=it.T("Player")}}</td>
+                <td>{{=it.T("Bet")}}</td>
+                <td>{{=it.T("Cashed Out")}}</td>
+                <td>{{=it.T("Bonus")}}</td>
+                <td>{{=it.T("Profit")}}</td>
+            </tr>
+          </thead>
+          <tbody>
+            {{~it.plays :play:index}}
+                <tr {{?!play.cash_out}}class="lose"{{?}}>
+                    <td>
+                        <strong>
+                            <a href="/user/{{=play.username}}?locale={{=it.locale}}">{{=play.username}}</a>
+                        </strong>
+                    </td>
+                    <td>
+                        {{#def.format: { n: play.bet } }} {{=it.T("bits")}}
+                    </td>
+                    <td>
+                        {{? play.cash_out}}
+                        {{#def.format: {n: play.cash_out / play.bet * 100, decimals: 2} }}x
+                        {{??}}
+                        {{=it.T("Lose")}}
+                        {{?}}
+                    </td>
+                    <td>
+                        {{? play.bonus }}
+                           {{#def.format: {n: play.bonus/play.bet* 100 * 100, decimals: 2} }}%
+                        {{??}}
+                          -
+                        {{?}}
+                    </td>
+                    <td>
+                        {{#def.format: { n: (play.cash_out ? play.cash_out : 0) - play.bet + ( play.bonus ? play.bonus : 0) , decimals: 2 } }}
+                        {{=it.T("bits")}}
+                    </td>
+                </tr>
+            {{~}}
+          </tbody>
+        </table>
+        <h6><b>{{=it.T("Hash")}}:</b> <a href="/faq?locale={{=it.locale}}#fair">{{=it.game.hash}}</a></h6>
+    </div>
+
+#}}
+
+{{#def.include('./template/main_old')}}

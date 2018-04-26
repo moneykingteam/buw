@@ -1,0 +1,90 @@
+{{##def.page_title = 'Withdraw' #}}
+
+{{##def.content:
+<script type="text/javascript">
+    function logout() {
+        if (document.getElementById('logout') ) {
+            if (confirm("Are you sure you want to log out?")) {
+                document.getElementById("logout").submit();
+            }
+        }
+    }
+</script>
+<form action="/logout" method="post" id='logout'></form>
+<div class="content row panel radius">
+    <div class="settings">
+        <div class="small-2 columns">
+            <ul class="menu">
+                <li>
+                    <a href="/account?locale={{=it.locale}}">{{=it.T("Account")}}</a>
+                </li>
+                <li>
+                    <a href="/security?locale={{=it.locale}}">{{=it.T("Security")}}</a>
+                </li>                
+                <li>
+                    <a href="/deposit?locale={{=it.locale}}">{{=it.T("Deposit")}}</a>
+                </li>                
+                <li class="active">
+                   {{=it.T("Withdraw")}}
+                </li>
+                <li>
+                    <a href="/transfer?locale={{=it.locale}}">{{=it.T("Transfer")}}</a>
+                </li>
+                <li>
+                    <a href="/support?locale={{=it.locale}}">{{=it.T("Support")}}</a>
+                </li>
+                <li>
+                    <a onclick="logout();">
+                        {{=it.T("Logout")}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="small-10 columns sets-content">
+            <a class="border-button right green" href="/withdraw/request?locale={{=it.locale}}">{{=it.T("Request Withdraw")}}</a>
+            <h5 >{{=it.T("Withdraw History")}}</h5>
+            <hr>
+            {{?it.user.withdrawals.length > 0}}
+                <table>
+                    <thead>
+                        <tr>
+                            <td>{{=it.T("Bits")}}</td>
+                            <td>{{=it.T("Destination Address")}}</td>
+                            <td>{{=it.T("Status")}}</td>
+                            <td class="show-for-large-up">{{=it.T("Created")}}</td>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{~it.user.withdrawals :withdrawal:index}}
+                            <tr>
+                                <td>{{#def.format: {n: withdrawal.amount, decimals: 2 } }}</td>
+                                <td>
+                                    <span class="visible-for-small-only">{{=withdrawal.shortDestination}}...</span>
+                                    <span class="show-for-medium-up">{{=withdrawal.destination}} </span>
+
+                                </td>
+                                <td>
+                                    {{?withdrawal.status}}
+                                         <a href="https://blockchain.info/tx/{{=withdrawal.status}}" target="_blank">{{=it.T("Transferred")}}</a>
+                                    {{??}}
+                                        {{=it.T("in progress")}}
+                                    {{?}}
+                                </td>
+                                <td class="show-for-large-up">{{=withdrawal.created}}</td>
+                            </tr>
+                        {{~}}
+                    </tbody>
+                </table>
+            {{??}}
+                <br>
+                <br>
+                <br>
+                <p>{{=it.T("You have no withdrawals in your account.")}}</p>
+            {{?}}
+        </div>
+    </div>
+</div>
+
+#}}
+{{#def.include('./template/main_old')}}

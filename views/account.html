@@ -1,0 +1,89 @@
+{{##def.page_title = 'Your account' #}}
+{{##def.content:
+<script type="text/javascript">
+    function logout() {
+        if (document.getElementById('logout') ) {
+            if (confirm("Are you sure you want to log out?")) {
+                localStorage.clear();
+                document.getElementById("logout").submit();
+            }
+        }
+    }
+</script>
+<form action="/logout" method="post" id='logout'><input type="hidden" name="locale" value="{{=it.locale}}"></form>
+<div class="content row panel radius">
+
+    <div class="settings">
+        <div class="small-2 columns">
+            <ul class="menu">
+                <li class="active">
+                   {{=it.T("Account")}}
+                </li>
+                <li>
+                    <a href="/security?locale={{=it.locale}}">{{=it.T("Security")}}</a>
+                </li>
+                <li>
+                    <a href="/deposit?locale={{=it.locale}}">{{=it.T("Deposit")}}</a>
+                </li>
+                <li>
+                    <a href="/withdraw?locale={{=it.locale}}">{{=it.T("Withdraw")}}</a>
+                </li>
+                <li>
+                    <a href="/transfer?locale={{=it.locale}}">{{=it.T("Transfer")}}</a>
+                </li>
+                <li>
+                    <a href="/support?locale={{=it.locale}}">{{=it.T("Support")}}</a>
+                </li>
+
+                <li>
+                    <a onclick="logout();">
+                        {{=it.T("Logout")}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="small-10 columns sets-content">
+            <h5>{{=it.T("Account")}}</h5>
+            <hr>
+            <p class="account">
+                <b>{{=it.T("Deposit Address")}}:</b>
+                <input type="text" value="{{=it.user.deposit_address}}" readonly>
+                <a href="bitcoin:{{=it.user.deposit_address}}?message=deposit">{{=it.T("Bitcoin link")}}</a>
+            </p>
+            <div class="row">
+                <div class="large-5 columns">
+                    <img class="show-for-medium-up qr" src="https://blockchain.info/qr?data={{=it.user.deposit_address}}&size=150" alt=""/>
+                </div>
+                <div class="large-6 columns">
+                    {{=it.T("Transfer bitcoins to this address to have your account credited. Accounts are only credited after <b>one bitcoin confirmation</b>
+                     which depending on external factors can take a while.")}} You can check
+                     <a href=\"https://blockchain.info/address/{{=it.user.deposit_address}}\">blockchain.info</a> to see if your transactions have confirmed yet.
+                    <strong><a href="/faq?locale={{=it.locale}}#deposit"> <small>{{=it.T("more")}}?</small></a></strong>
+                </div>
+            </div>
+            <br>
+            <a class="border-button blue right" href="/user/{{=it.user.username}}?locale={{=it.locale}}">{{=it.T("Public Profile")}}</a>
+            <h5>{{=it.T("Account Information")}}</h5>
+            <div id="statistics" class="row">
+                <div class="columns data large-3">
+                    <p><b>{{=it.T("Deposits")}} </b></p>
+                    <h5>{{#def.format:{n: it.user.deposits, decimals:2} }} bits</h5>
+                </div>
+                <div class="columns data large-3">
+                    <p><b>{{=it.T("Withdrawals")}} </b></p>
+                    <h5>{{#def.format:{n: it.user.withdrawals, decimals:2} }} bits</h5>
+                </div>
+                <div class="columns data large-3">
+                    <p><b>{{=it.T("Free Bits Collected")}} </b></p>
+                    <h5>{{#def.format:{n: it.user.giveaways, decimals:2} }}</h5>
+                </div>
+                <div class="columns data large-3">
+                    <p><b>{{=it.T("Net Profit")}}</b></p>
+                    <h5>{{#def.format:{n: it.user.net_profit, decimals:2} }} Bits</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+#}}
+{{#def.include('./template/main_old')}}

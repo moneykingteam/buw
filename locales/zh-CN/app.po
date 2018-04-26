@@ -1,0 +1,964 @@
+msgid ""
+msgstr ""
+
+msgid "bustabitclub"
+msgstr "投注比特"
+
+msgid "Leaderboard"
+msgstr "排行榜"
+
+msgid "Stats"
+msgstr "统计"
+
+msgid "FAQ"
+msgstr "问题"
+
+#: index.html+div.div.div.h1:8
+msgid "The Social Gambling Game"
+msgstr "社交图形游戏"
+
+#: index.html+div.div.div.div:12
+msgid "Play Now!"
+msgstr "开始游戏!"
+
+msgid "Play with the old theme!"
+msgstr "进入老主题!"
+
+msgid "Luck"
+msgstr "幸运"
+
+msgid "Skill"
+msgstr "技术"
+
+#: index.html+div.div.div.p:30
+msgid "Play for fun! Or play to win!"
+msgstr "玩的开心! 还是为了赢!"
+
+msgid "See strategy guide"
+msgstr "看战略向导"
+
+#: index.html+div.div.div.h4:39
+msgid "Real Time"
+msgstr "实时的"
+
+#: index.html+div.div.div.p.br:40
+msgid "Watch your fortune rise<br > in real time!"
+msgstr "实时关注<br >你的财富上涨!"
+
+#: index.html+div.div.div.h4:48
+msgid "Secure"
+msgstr "安全"
+
+#: index.html+div.div.div.p:49
+msgid "Offline storage"
+msgstr "离线存储"
+
+msgid "Provably fair"
+msgstr "公平性"
+
+msgid "Razor thin"
+msgstr "很瘦"
+
+msgid "house edge"
+msgstr "获胜的可能性"
+
+msgid "between 0 and 1%"
+msgstr "在0和1％之间"
+
+msgid "</a><br> Razor thin <a "
+"href=\"faq#odds\">house edge</a> (between 0 and 1%)"
+msgstr ""
+
+#: index.html+div.div.div.h4:59
+msgid "Social"
+msgstr "社交网"
+
+#: index.html+div.div.div.p:60
+msgid "Play with friends<br /> and beat your foes"
+msgstr "和好友一起玩<br />和打败你的敌人"
+
+msgid "Register"
+msgstr "注册"
+
+msgid "Log in"
+msgstr "登陆"
+
+msgid "Strategy Guide"
+msgstr "战略向导"
+
+msgid "input captcha"
+msgstr "输入验证码"
+
+msgid ""
+"<b>Bustabit</b> is a game of 99% luck, but 1% skill. This means that if you "
+"play in a strategy-oblivious way, you'll not do too bad. But with a good "
+"enough strategy, it's actually possible to overcome the house odds, and even "
+"make a profit."
+msgstr "布斯塔梳子是99％的幸运和1％的技术。 如果你在足够的策略之后来到游戏，你将能够产生一个体面的利润水平。"
+
+msgid "Here's how it works:"
+msgstr "这是如何工作的："
+
+msgid "Instabust"
+msgstr "立即退出"
+
+msgid ""
+"Right off the bat, there's a <b>1%</b> chance of the game instantly busting. "
+"If this happens, no one can win anything. This means bustabit.club has an "
+"expected return of <code>1% * playersInGame * tableAmount</code>. This is "
+"the <b>exact amount</b> bustabit uses to give out bonuses."
+msgstr "马上就有<b>1％</b>的机会立刻破坏游戏。 如果发生这种情况，没有人能赢得任何东西。 这意味着bustabit.club的预期回报率为<code>1％* playersInGame * tableAmount</code>。 这是用来发放奖金的确切金额。"
+
+msgid "House Edge"
+msgstr "房子边缘"
+
+msgid "It scales between 0 and 1%"
+msgstr "它在0和1％之间变化."
+
+msgid "see: odds and calculator."
+msgstr "见：赔率和计算器。"
+
+msgid "This is what you need to overcome!"
+msgstr "这是你需要克服的！"
+
+msgid "Bonuses"
+msgstr "奖金"
+
+msgid ""
+"The last person to <b>cash out</b> before a bust gets a bonus, which on "
+"average is exactly the same as the server makes from the instabust"
+msgstr "最后一个在破产之前兑现的人获得奖金，平均情况与服务器从不稳定"
+
+msgid "see: faq"
+msgstr "看：常见问题"
+
+msgid ""
+"Strategic play revolves completely around "
+"trying to get this bonus. If no one collects the bonus, it <b>rolls to the "
+"next game.</b>"
+msgstr "战略游戏围绕试图获得这个奖金完全围绕。 如果没有人收集奖金，它会滚动到 下一场比赛。"
+
+msgid "Single Player Game"
+msgstr "单人游戏"
+
+msgid ""
+"If you're playing a game, and no one else joins, it's not possible to "
+"overcome the <b>house odds</b>, and it becomes a simple game of luck."
+msgstr "如果你在玩游戏，而没有其他人参加，那么就不可能克服房子的可能性，这就成了一个简单的运气游戏。"
+
+msgid "Simple Greedy Strategy"
+msgstr "简单的贪婪策略"
+
+msgid ""
+"Hold in the game, as soon as you're the last person holding, cash out "
+"immediately. This is a great strategy if all your opponents are "
+"conservative, and cash out early. However, if you play against someone with "
+"the same strategy -- <b>you will both will infinitely hold, and never win "
+"the bonus.</b>"
+msgstr "只要你是最后一个持有人，就立刻在游戏中立即兑现。 如果你所有的对手都是保守的，这是一个很好的策略，并提前兑现。 但是，如果你与同一个策略玩的人一样 - <b>你们两个都会无限的拥有，永远也不会赢得奖金。</b>"
+
+msgid "Odds Calculator"
+msgstr "赔率计算器"
+
+msgid "Loading Calculator..."
+msgstr "加载计算器..."
+
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
+
+msgid "How to play?"
+msgstr "怎么玩?"
+
+msgid "What is a bit?"
+msgstr "怎么下注?"
+
+msgid "How can I get free bits?"
+msgstr "我能得到免费比特?"
+
+msgid "How do I deposit bits?"
+msgstr "怎么存比特?"
+
+msgid "How long is the deposit address valid for?"
+msgstr "存款地址有效期为多久?"
+
+msgid "How long for deposits to be credited to account?"
+msgstr "存款多久能存入账户?"
+
+msgid "How do I withdraw bits?"
+msgstr "我怎么取比特?"
+
+msgid "What is Gross Profit?"
+msgstr "什么是毛利?"
+
+msgid "What happens if I disconnect form the game?"
+msgstr "如果我断开游戏形式会怎么样?"
+
+msgid "How high can the game go?"
+msgstr "游戏能走多高?"
+
+msgid "What is the most I can bet?"
+msgstr "我最大可以下注多少?"
+
+msgid "What is the bonus?"
+msgstr "什么是奖金?"
+
+msgid "What are the game odds?"
+msgstr "什么是游戏赔率?"
+
+msgid "How is the game bust calculated?"
+msgstr "怎么计算游戏投注?"
+
+msgid "Is the game fair?"
+msgstr "游戏是否公平?"
+
+msgid "How to verify the game results?"
+msgstr "如何验证游戏结果？"
+
+msgid "What happens when the server forces people to cash out?"
+msgstr "当服务器强制用户出钱时会发生什么?"
+
+msgid "What other gambling places do you recommend?"
+msgstr "推挤那些赌博场所?"
+
+msgid "Gambling Addiction"
+msgstr "赌博成瘾"
+
+msgid "Basics"
+msgstr "基本"
+
+msgid "What is bitcoin gambling?"
+msgstr "什么是比特币赌博?"
+
+msgid ""
+"Bitcoin gambling is a general term for any type of gambling wherein bets are "
+"placed in units of bitcoins as opposed to a fiat currency or any other "
+"asset. Learn more about the history of <a href=\"online-gambling-meets-"
+"bitcoin\">online gambling and bitcoin</a>."
+msgstr "比特币赌博是任何类型赌博的总称，其下注的单位是比特币，而不是法定货币或其他资产。 了解更多比特币赌博或在线赌博和比特币的历史。"
+
+msgid ""
+"Place a bet. Watch the multiplier increase from 1x upwards! Cash out any "
+"time to get your bet multiplied by that multiplier. But be careful because "
+"the game can bust at any time, and you'll get nothing!"
+msgstr "下注. 从1x向上看乘数增加. 随时取款，让你的赌注乘以乘数。但小心，游戏随时可能崩溃，你将什么也得不到!"
+
+msgid ""
+"A bit is a millionth of a bitcoin or 100 satoshis. At the time of this "
+"writing, a single bit is worth roughly $0.0003 USD. You are able to deposit "
+"and withdraw bits at any time by going to your <a href=\"/account\">account "
+"page</a>."
+msgstr "比特是百万分之一的比特币或satoshis. 在撰写本文的时候，一个比特的价值大约为0.0003美元。 你可以通过进入你的帐户页面随时存入和提取比特。"
+
+msgid ""
+"Every hour you can claim 2 free bits on your account page. We do this so "
+"that you may test and enjoy the game without any commitment. There are no "
+"strings attached, you may withdraw this money if you so please, but we ask "
+"you to refrain from abusing this feature."
+msgstr "每小时你的账户可以有两个免费比特. 我们这样做，你可以没有任何承诺的测试和享受游戏。 没有附加条件，如果你愿意，你可以提取这笔钱，但是我们要求你不要滥用这个功能."
+
+msgid "Deposits"
+msgstr "存款"
+
+msgid ""
+"You will need to transfer bitcoins to the deposit address on your account "
+"page. If you do not have any bitcoins, we can recommend <a href=\""
+"https://coinbase.com\">Coinbase</a> if you are in the US (although the "
+"registration process is lengthy). Another great option is <a href=\""
+"https://localbitcoins.com/\">LocalBitcoins.com</a>, which lists traders in "
+"your area willing to sell (or buy) bitcoins. You can also search online to "
+"see if there are any bitcoin ATMs near you. And remember, you can withdraw "
+"directly to the bitcoin address on your account page!"
+msgstr "您需要将比特币转移到您的帐户页上的存款地址。 如果你没有任何的比特币，我们可以推荐基础币如果你在. 另一个其他好的方案是<a href=\"https://localbitcoins.com/\">LocalBitcoins.com</a>。其中列出你愿意卖出（或购买）比特币的交易。 你也可以在网上查询位于您当前位置附近的比特币自动提取机。记住，你可以直接在你的账户页面上的比特币地址上取钱！"
+
+msgid "How long is the deposit address valid?"
+msgstr "存款地址有效期是多久？"
+
+msgid ""
+"It is <strong>permanently</strong> attached to your account. You can save "
+"it, or use it for automatic funding, or whatever else you like. All payments "
+"to this address will be automatically credited to your account."
+msgstr "它永久地附在你的帐户上。 你可以保存它，或者用于自动资助，或者其他你喜欢的东西。 所有支付此地址将自动贷记到您的帐户。"
+
+msgid "How long do deposits take to be credited?"
+msgstr "存款要多久才能记入贷方?"
+
+msgid ""
+"We instantly credit accounts upon a single confirmation, which on average is "
+"approximately 10 minutes from the time of the transaction."
+msgstr "我们在一次确认后立即贷记帐户，平均从交易时间起大约10分钟。 "
+
+msgid ""
+"On your account page, you can transfer bits to any bitcoin address you want. "
+"Small withdrawals (i.e. smaller than the balance of our hot-wallet) are "
+"processed instantly and you will be given the transaction ID immediately."
+msgstr "在您的帐户页上，您可以将比特转移到任何您想要的比特币地址。 小额取款（即小于我们的热钱包余额）立即处理，您将立即获得交易ID。"
+
+msgid ""
+"Larger withdrawals will be shown in your withdrawal page as \"PENDING\" and "
+"will require us to manually remove sufficient funds from our cold storage. "
+"Usually this process will take less than two hours, but may take up to 24 "
+"hours, depending on the time of day and other circumstances."
+msgstr "较大的取款将显示在您的取款页为“待定”，并要求我们手动删除足够的资金从我们的冷库。 通常这个过程需要不到两个小时，但可能需要24个小时，这取决于每天的时间和其他情况。"
+
+msgid ""
+"We remove 100 bits (about 0.05 USD) from any withdrawal amount to cover "
+"mining fees. We charge this amount <strong>regardless</strong> of the actual "
+"mining fees attached to the transaction, which may be more or less than "
+"this, depending on the block competition at the time of your withdrawal."
+msgstr "我们从任何取款金额中删除100比特（约0.05美元）以支付采矿费. 我们收取这笔费用，不管交易的实际采矿费是多少，这取决于你退出时的区块竞争。"
+
+msgid ""
+"Withdrawals must be in increments of 1 bit (100 satoshis), with a minimum "
+"withdrawal of 200 bits (of which 100 bits goes towards the mining fee). As "
+"required, we will chip in our own money to help expedite confirmation time, "
+"such that we typically pay 200 bits in mining fees, despite charging you "
+"only 100 bits."
+msgstr "取款必须是1位的增量（100 satoshis），与最低提取200位（其中100位是开采费用）。 根据需要，我们将用我们自己的钱来帮助加快确认时间，这样我们通常会支付200比特的采矿费，尽管你只收取100比特。"
+
+msgid "What is gross profit?"
+msgstr "什么是毛利?"
+
+msgid ""
+"Gross profit refers to the sum of the profit from each game you've played "
+"without considering your loses."
+msgstr "毛利指的是你在不考虑损失的情况下所玩的每一场游戏的利润之和。"
+
+msgid "Game"
+msgstr "游戏"
+
+msgid "What happens if I disconnect from the game?"
+msgstr "如果我游戏掉线会发生什么?"
+
+msgid ""
+"Upon detecting that you have disconnected we cash you out (assuming the game "
+"is still in progress). Regardless of whether your client is connected or "
+"not, the <em>auto cash-out</em> feature will work as expected (it happens on "
+"the server), and we highly recommend you use it if internet reliability or "
+"performance is a concern."
+msgstr "一旦发现你已经断开，我们就给你现金（假设游戏还在进行中）。 无论您的客户端是否连接，自动现金输出功能将按预期运行（它发生在服务器上），我们强烈建议您使用它，如果网络的可靠性或性能是一个问题。"
+
+msgid ""
+"There's no real limit! However, if during a game we ever are facing a net "
+"loss of 3% of the bankroll or greater, the server will automatically cash "
+"out all players still in the game, forcing them to enjoy an early win and a "
+"sizeable profit. You can see in game what the current max win is (in the "
+"bottom right of the chart)"
+msgstr "没有真正的限制. 然而，如果一个游戏我们曾经面对的是一个3%的资金或更大的净损失时，服务器将自动支付所有玩家仍然在游戏中，迫使他们享受早期赢得利润可观。 你可以在游戏中看到当前的max赢是什么（在图表的右下方）"
+
+msgid "We currently have a bet limit of 1,000,000 bits (1 BTC)."
+msgstr "目前我们有1000000比特下注（1 BTC）。"
+
+msgid ""
+"The bonus is a special prize that is awarded to the last people to cash out "
+"before the game busted. Getting the bonus is critical to skillful playing of "
+"bustabit, as it is the <strong>only</strong> way to overcome house odds."
+msgstr "奖金是一个特别奖，授予最后的人在游戏崩溃前拿出现金。 获得奖金对于处理bustabit的技巧是至关重要的，因为这是唯一能克服困难的方法。"
+
+msgid ""
+"1% of each player's stake goes into the bonus pot. So if there are 4 "
+"players, betting 400, 300, 200, and 100, there will be 10 bits in the pot. "
+"If the biggest player wins, he gets the whole pot. The site works out the "
+"rate he would be getting if he won, ie. 400 bits bet gives 10 bits bonus - "
+"or 1/40th bonus per bit bet. It then applies the same rate to whoever "
+"actually wins."
+msgstr "每个玩家的赌注中有1%进入奖金池，所以如果有4名玩家，赌400、300、200和100，那么将会有10个筹码。 如果最大的玩家赢了，他将得到全部. 这个网站计算出如果他赢了他会得到的利率。400比特的赌局可以得到10比特的奖金，或者是1 / 40的奖金。 然后，无论谁赢了，都要用同样的速度。"
+
+msgid ""
+"So if the 100 bit player wins, he gets 1/40th of 100, or 2.5 bits. That "
+"leaves 7.5 bits in the pot, which goes to the next best placing player(s)."
+msgstr "所以如果100位玩家获胜，他将得到1 / 40的100，或2.5比特. 这样就剩下7.5比特了，这将成为下一个最佳放置玩家。"
+
+msgid ""
+"Suppose the 200 bit player comes 2nd. He is due 1/40th of 200, or 5 bits. "
+"There are still 7.5 bits in the pot, so he gets the full 5 bits he is due - "
+"the same as if he had come in 1st place."
+msgstr "假设这200位玩家排在第二位. 他将得到200或5比特的1 / 40。 在这个罐子里还有7.5比特，所以他得到了他应得的5比特，就像他在第一个地方一样."
+
+msgid ""
+"Suppose the 300 bit player comes 3rd. He's due 7.5 bits (300/40) but there "
+"are only 2.5 bits left in the pot, so he gets those and that's all. There's "
+"nothing left for the 4th or worse place players."
+msgstr "假设300位玩家排在第三位。 他有7.5比特(300 / 40)，但在锅里只剩下了2.5比特，所以他得到了这些。 没有任何东西留给第四名或更糟糕的玩家。"
+
+msgid ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+msgstr ""
+
+msgid ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+msgstr "1%的游戏将会立即破产(0x)，没有奖金，所有其他游戏的奖金都相当于赌博金额的1%。"
+
+msgid "Fairness"
+msgstr "公平"
+
+msgid ""
+"The house margin is scaled between 0 and 1 %, depending on how long you "
+"hold. An additional 1 % is effectively taken from every bet and put into the "
+"<a href=\"#bonus\">bonus pool</a>, which is distributed in its entirety "
+"every game. As a consequence, skilless or random play has—at worst—an "
+"expected return of -2 %, but it is possible to overcome the house margin by "
+"skillfully getting bonuses."
+msgstr "根据你持有的时间长短，比特的保证金比例是0 - 1%。 额外的1%有效地从每一个赌注中得到，并投入到奖金池中，每个游戏都分配到它的全部。 因此，没有技术或随机的游戏在最差的预期回报率是- 2%，但有可能通过巧妙地获得奖金来克服房子的边缘。"
+
+msgid ""
+"The numbers are baked into the game, so you never need to worry about it. We "
+"do not have a fixed house margin, as this would prevent highly conservative "
+"play (e.g. If you were only attempting to make $2 in a $100 game, a house "
+"margin of 1 % would be 50 % of your potential profits!). Our unique formula "
+"makes it fair for both highly conservative play (cash out early) and highly "
+"aggressive play (hold until you're a millionaire). All games are <a href=\"#"
+"fair\">provably fair</a>."
+msgstr "这些数字都是在游戏中完成的，所以你不必担心它。 我们没有固定的房子保证金，因为这将阻止高度保守的游戏(例如，如果你只是想在100美元的游戏中赚2美元，那么你的潜在利润的50%将是房子的50%)。 我们独特的公式使它既公平，又具有高度保守的作用(提前现金)和高度侵略性的游戏(直到你成为百万富翁)。 所有游戏是公平的."
+
+msgid ""
+"The exact formula for the houses expected return is:<br /> <code>1 % * ("
+"intendedCashOut - roomAmount) * (roomAmount / intendedCashOut)</code><br /> "
+"But to really get a good sense of how this affects you, please use our handy "
+"<a href=\"/calculator\">odds calculator</a>."
+msgstr "房屋预期回报的确切公式是: <br /><code>1 % * (intendedCashOut - roomAmount) * (roomAmount / intendedCashOut)</code><br />但是为了真正了解它是如何影响你的，请使用我们常用的概率计算器。"
+
+msgid ""
+"The other important thing to keep in mind is that every game has a 1 % "
+"chance of instantly busting. We do not make <strong>any</strong> money on "
+"it, but rather use this to fund the bonus scheme. This is an important "
+"consideration to make if you are playing in such a way that you never win "
+"the bonus."
+msgstr "要记住的另一件重要的事情是，每一场比赛都有1%的机会立即被打破。 我们并没有在上面赚到钱，而是用这笔钱为奖金计划提供资金。 这是一个重要的考虑，如果你在玩这样的方式，你永远不会赢得奖金。"
+
+msgid "The code that decides the multiplier for each round is here:"
+msgstr "决定每一轮的乘数的代码在这里："
+
+msgid "It basically does three things."
+msgstr "它主要做三件事。"
+
+msgid ""
+"First, it mixes the hash with the clientSeed (decided by the provably fair "
+"seeding event) using hmac-sha256"
+msgstr "首先，它使用hmac - sha256将散列与clientSeed(由prov合理的播种事件决定)混合."
+
+msgid "Secondly it gives a 1 in 101 chance of instant busting"
+msgstr "其次，它提供了101个瞬间打破的机会"
+
+msgid ""
+"Third, it works out what the multiplier would be if there was no house edge."
+msgstr "第三，它计算出如果没有房子边缘的乘数是多少。"
+
+msgid "Fourth, it takes 1% off the multiplier and adds on 0.01x:"
+msgstr "第四，它从乘数上取1%，加上0。01x:"
+
+msgid ""
+"So half the time (other than 0x bust which we can ignore because they pay "
+"for themselves with the bonus) the multiplier will be 1.99x or more."
+msgstr "所以有一半的时间(我们可以忽略的是0x破产，因为他们为自己支付了红利)，乘数将是1。99x或更多."
+
+msgid ""
+"That means if we bet 1.99x we have a 50% chance of winning (again, ignoring "
+"0x busts), and so the house edge is:"
+msgstr "这意味着，如果我们赌1。99x，我们有50%的机会赢(同样，忽略0x的萧条)，所以众议院的优势是:"
+
+msgid ""
+"The extra 0.01 that gets added on to the multiplier is half of the 1% that "
+"was taken off in this case, leaving the house edge at 0.5%. As the "
+"multiplier gets bigger, the 1% that is taken off gets bigger, and the 0.01x "
+"that gets added on becomes less and less significant, causing the house edge "
+"to tend to 1%"
+msgstr "增加的0。01倍的乘数是1%的一半在这个例子中被拿走了，剩下的是0.5%的边缘。随着乘数越来越大，被取走的1%会变得更大，而增加的0.01x会变得越来越小，导致边缘趋向于1%."
+
+msgid ""
+"Absolutely! And we can prove it. Please see: <a href=\""
+"https://bitcointalk.org/index.php?topic=922898.0\">the bitcoin talk "
+"thread</a> for technical details."
+msgstr "显然我们可以证明。请看;"
+
+msgid "There are already 3rd party scripts to verify the game hashes and to calculate the results like this"
+msgstr "已经有第三方脚本来验证游戏哈希值并计算结果"
+
+msgid ""
+"Under some circumstances the server will force people to cash out. The most "
+"common reason is that the game multiplier has gotten so large that we are "
+"risking too much of our bankroll (10 % or more). Another possible reason is "
+"unexpected server problems. If more than one person in a game is affected by "
+"the forced cash-out, we allocate the last cash-out bonus to a random player."
+msgstr "在某些情况下，服务器将迫使人们拿出现金。 最常见的原因就是游戏乘数已经变得如此之大，我们冒着我们太多的资金（10%或更多）。 另一个可能的原因是意外的服务器问题。 如果一个游戏中有超过一个人受到强迫现金的影响，我们将最后的现金红利分配给一个随机球玩家。"
+
+msgid ""
+"A couple quick pointers: the lower the house edge the more variance you will "
+"experience which means a longer, more exciting gaming session. Bitcoin "
+"Casinos generally offer better odds, less fees and faster deposits and "
+"withdrawals than fiat based casinos. Be extremely skeptical of generous "
+"reward programs, bonuses (e.g. deposit bonuses), affiliate programs and the "
+"likes. The money comes from somewhere: you."
+msgstr "两个快速的指针:边缘越低，你就会经历越多的变化，这意味着一个更长的、更令人兴奋的游戏会话。 比特币赌场通常比菲亚特赌场提供更好的赔率、更少的费用和更快的存款和取款。 对慷慨的奖励计划、奖金(例如存款奖金)、附属项目和喜欢的东西都要非常怀疑。"
+
+msgid ""
+"Instead of listing our favorites here, we'll defer to the excellent <a href="
+"\"https://thebitcoinstrip.com/\">bitcoin strip</a>"
+msgstr "我们不会在这里列出我们的最爱，而是遵从优秀的比特币条"
+
+msgid "Do you have gambling addiction?"
+msgstr "你有赌瘾吗?"
+
+msgid ""
+"Gambling addiction, also known as compulsive gambling, is a type of impulse-"
+"control disorder. Compulsive gamblers can’t control the impulse to gamble, "
+"even when they know their gambling is hurting themselves or their loved "
+"ones. Gambling is all they can think about and all they want to do, no "
+"matter the consequences. Compulsive gamblers keep gambling whether they’re "
+"up or down, broke or flush, happy or depressed. Even when they know the odds "
+"are against them, even when they can’t afford to lose, people with a "
+"gambling addiction can’t “stay off the bet.”"
+msgstr "赌博成瘾，也被称为强迫性赌博，是一种冲动控制障碍。 强迫赌徒不能控制赌博的冲动，即使他们知道他们的赌博伤害了他们自己或他们所爱的人。 赌博是他们所能想到的，他们想做的事，不管后果如何。 嗜赌成瘾的赌徒们总是在赌博，不管他们是上还是下，坏了还是脸红了，高兴还是沮丧。 即使当他们知道机会对他们不利的时候，即使他们不能承受损失，赌博成瘾的人也不能“不下注”。"
+
+msgid ""
+"Gamblers can have a problem, however, without being totally out of control. "
+"Problem gambling is any gambling behavior that disrupts your life. If you’re "
+"preoccupied with gambling, spending more and more time and money on it, "
+"chasing losses, or gambling despite serious consequences, you have a "
+"gambling problem."
+msgstr "그然而，赌徒们可以有一个问题，而不是完全失去控制。 问题赌博是一种扰乱你生活的赌博行为。 如果你沉迷于赌博，花越来越多的时间和金钱在上面，追逐损失，或赌博，尽管后果严重，你就有赌博问题。"
+
+msgid ""
+"If you think you have this problem please visit one of these sites to get "
+"assistance:"
+msgstr "如果你认为你有这个问题，请访问其中一个网站寻求帮助:"
+
+msgid "Up"
+msgstr "上"
+
+msgid "Top 100 players"
+msgstr "前100玩家"
+
+msgid "Rank"
+msgstr "排名"
+
+msgid "Player"
+msgstr "玩家"
+
+msgid "Gross Profit"
+msgstr "总利润"
+
+msgid "Net Profit"
+msgstr "净利润"
+
+msgid "Top"
+msgstr "上"
+
+msgid "Statistics"
+msgstr "统计"
+
+msgid "Pending Withdraws:"
+msgstr "等待撤回（需要管理员查看的取款）:"
+
+msgid "withdrawals that require admin to look at"
+msgstr "需要管理员查看的提款"
+
+
+msgid "Unterminated Games:"
+msgstr "未结束的游戏（游戏需要管理员来查看）:"
+
+msgid "games that require admin to look at"
+msgstr "需要管理员看的游戏"
+
+msgid "Deposits:"
+msgstr "存款:"
+
+msgid "Withdrawals:"
+msgstr "取款:"
+
+msgid "Net:"
+msgstr "净:"
+
+msgid "Total Wagered:"
+msgstr "全部下注:"
+
+msgid "Players won in cashed:"
+msgstr "玩家在兑换获胜"
+
+msgid "Players won in bonuses:"
+msgstr "玩家获胜奖金"
+
+msgid "Players won in total:"
+msgstr "玩家全部获胜"
+
+msgid "Our Profit:"
+msgstr "我们利润"
+
+msgid "Bankroll:"
+msgstr "资金"
+
+msgid "Max win per game:"
+msgstr "单局最大胜"
+
+msgid "Total Users:"
+msgstr "所有用户："
+
+msgid "Total Plays:"
+msgstr "所有玩家："
+
+msgid "Total Games:"
+msgstr "所有游戏："
+
+msgid "Create a new account "
+msgstr "创建一个新账户"
+
+msgid "already have one?"
+msgstr "已经有一个？"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "*Recovery Email"
+msgstr "恢复邮件"
+
+msgid "<b>* Optional</b> although we <b>strongly advise you to use one</b>, otherwise it is <b>not possible</b> to password reset!"
+msgstr "可选，虽然我们强烈建议你使用一个，否则密码重置是不可能的！"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Pick something secure, at least 7 characters"
+msgstr "选择一些安全的，至少7个字符."
+
+msgid "Username only allowed alphanumeric, hyphen and underscore"
+msgstr "用户名只允许使用字母数字，连字符和下划线"
+
+msgid "Password should be at least 7 characters"
+msgstr "密码应至少为7个字符"
+
+msgid "Confirm Password"
+msgstr "确认密码"
+
+msgid "Captcha Authentication"
+msgstr "验证码验证"
+
+msgid "Remember me"
+msgstr "记住我"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Forgot your password?"
+msgstr "忘记密码了吗？"
+
+msgid "Login"
+msgstr "登陆"
+
+msgid "Place bet"
+msgstr "下注"
+
+msgid "Login to play"
+msgstr "登录游戏"
+
+msgid "information"
+msgstr "信息"
+
+msgid "Bet"
+msgstr "下注"
+
+msgid "Cashed Out"
+msgstr "取现到"
+
+msgid "Bonus"
+msgstr "奖金"
+
+msgid "Profit"
+msgstr "利润"
+
+msgid "Hash"
+msgstr "哈希码"
+
+msgid "Players"
+msgstr "玩家"
+
+msgid "Games Played"
+msgstr "玩过的游戏"
+
+msgid "You are not authorized to see this"
+msgstr "您无权看到此内容."
+
+msgid "Please login and try it again"
+msgstr "请登录并重试."
+
+msgid "The page you are looking for doesn't exist..."
+msgstr "您正在寻找的页面不存在..."
+
+msgid "Go Home"
+msgstr "回家"
+
+msgid "Account"
+msgstr "账户"
+
+msgid "Security"
+msgstr "安全"
+
+msgid "Deposit"
+msgstr "存款"
+
+msgid "Withdraw"
+msgstr "撤回"
+
+msgid "Support"
+msgstr "支持"
+
+msgid "Deposit Address"
+msgstr "存款地址"
+
+msgid "Public Profile"
+msgstr "公共简介 "
+
+msgid "Bitcoin link"
+msgstr "比特币链接"
+
+msgid "more"
+msgstr "更多"
+
+msgid ""
+"Transfer bitcoins to this address to have your account credited. Accounts are only credited after <b>one bitcoin confirmation</b>"
+" which depending on external factors can take a while."
+msgstr "将比特币转移到这个地址，将您的账户记入账户。 账户只能在一个比特币确认后记入，这取决于外部因素可能需要一段时间。"
+
+msgid "Account Information"
+msgstr "账户信息"
+
+msgid "Deposits"
+msgstr "存款"
+
+msgid "Withdrawals"
+msgstr "撤回"
+
+msgid "Free Bits Collected"
+msgstr "免费收集"
+
+msgid "Net Profit"
+msgstr "净利润"
+
+msgid "Loading Calculator..."
+msgstr "加载计算器..."
+
+msgid "Contact Us"
+msgstr "联系我们"
+
+msgid "Email"
+msgstr "邮箱"
+
+msgid "Message"
+msgstr "信息"
+
+msgid "Logout"
+msgstr "退出"
+
+msgid "Deposit History"
+msgstr "存款历史"
+
+msgid "Deposit Address"
+msgstr "存款地址"
+
+msgid "Transaction"
+msgstr "交易"
+
+msgid "You don't have deposits"
+msgstr "您没有存款"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Something bad happened. My humans are working to fix this mess, please come back later..."
+msgstr "发生了一些不好的事情 我的人正在努力解决这个混乱，请稍后再回来..."
+
+msgid "Enter your email"
+msgstr "输入你的电子邮箱"
+
+msgid "Add a giveaway"
+msgstr "添加赠品"
+
+msgid "users"
+msgstr "用户"
+
+msgid "back"
+msgstr "背部"
+
+msgid "Please enter your 2FA token"
+msgstr "请输入您的2FA令牌"
+
+msgid "Request Free Bits"
+msgstr "请求免费位"
+
+msgid "Every hour you are able to request 2 free bits, just claim them!"
+msgstr "每小时你可以要求2个免费的位，只要声称他们！"
+
+msgid "Password reset"
+msgstr "重设密码"
+
+msgid "at least 7 characters"
+msgstr "至少七个字符"
+
+msgid "Confirmation"
+msgstr "确认"
+
+msgid "New Password"
+msgstr "新密码"
+
+msgid "At least 7 characters"
+msgstr "至少七个字符"
+
+msgid "In case you've forgotten your password we can send you a link to reset it, otherwise you don't have other way to recover your account."
+msgstr "如果你忘记你的密码，我们可以给你一个链接重置它，否则你没有其他方法来恢复你的帐户。"
+
+msgid "Recovery Email"
+msgstr "恢复电子邮件"
+
+msgid "Confirmation Password"
+msgstr "确认密码"
+
+msgid "Disable Two-Factor Authentication"
+msgstr "禁用双因素身份验证"
+
+msgid "To disable two-factor authentication, please enter your one-time password."
+msgstr "要禁用双因素身份验证，请输入您的一次性密码。"
+
+msgid "Enable Two-Factor Authentication"
+msgstr "启用双重身份验证"
+
+msgid "To enable two-factor authentication, scan the following QR code or enter the secret manually, then enter your one-time password to confirm."
+msgstr "要启用双重身份验证，请扫描下面的二维码码或手动输入密码，然后输入您的一次性密码确认。"
+
+msgid ""
+"If you lose your two-factor authentication codes you may be permanently locked out of your account. Ensure you backup "
+"your 2FA application, or save this QR code or secret. Do not enable 2FA unless you are sure you have a safe copy of this information"
+msgstr "如果您失去了双重身份验证码，您的账户将会被永远锁定。 确保您备份您的2FA应用，或保存此二维码或密码。 不要使2fa除非你确定你有一个安全的信息复制."
+
+msgid "如需帮助请与我们联系"
+msgstr "도움이 필요되십니까? 우리에게 문의 해주세요."
+
+msgid "Game Loading"
+msgstr "游戏加载"
+
+msgid "Request A Withdrawal"
+msgstr "要求提款"
+
+msgid ""
+"<strong>Note:</strong> Your withdrawal will be sent from the hot wallet, do not withdraw to any site "
+"that uses the sending address, or returns to sender, because any returns will probably be credited to a different player."
+msgstr "<strong>注意：</strong> 您的取款将从热钱包发送，不会退回到使用发送地址的任何网站，或返回给发件人，因为任何退款可能会被记入不同的玩家。"
+
+msgid "Bits amount"
+msgstr "比特量"
+
+msgid "Destination Address"
+msgstr "存款地址"
+
+msgid "our password"
+msgstr "密码"
+
+msgid "Back"
+msgstr "背部"
+
+msgid "Request Withdraw"
+msgstr "请求撤销"
+
+msgid "Withdraw History"
+msgstr "退出历史"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Created"
+msgstr "创建"
+
+msgid "Transferred"
+msgstr "转入"
+
+msgid "You have no withdrawals in your account."
+msgstr "你的账户没有取款."
+
+msgid "You have made nor received any transfers."
+msgstr "您已经取得或没有收到任何转账。"
+
+msgid "Send!"
+msgstr "发送!"
+
+msgid "Change"
+msgstr "变更"
+
+msgid "save"
+msgstr "保存"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Update Your Password"
+msgstr "升级你的密码"
+
+msgid "Old Password"
+msgstr "旧密码"
+
+msgid "Transfer"
+msgstr "转让"
+
+msgid "Edit Email Address"
+msgstr "编辑电子邮件地址"
+
+msgid "2FA Code"
+msgstr "2FA 代码"
+
+msgid "Your password"
+msgstr "你的密码"
+
+msgid "Transfer History"
+msgstr "转移历史"
+
+msgid "Transfer Bits"
+msgstr "转让比特"
+
+msgid "From"
+msgstr "从"
+
+msgid "To"
+msgstr "至"
+
+msgid "Amount"
+msgstr "比特"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "User"
+msgstr "用户ID"
+
+msgid "No recaptcha submitted, go back and try again..."
+msgstr "没有提交recaptcha，回去再试一次..."
+
+msgid "add!"
+msgstr "加!"
+
+msgid "Bits"
+msgstr "比特"
+
+msgid "First"
+msgstr "最初"
+
+msgid "Previous"
+msgstr "以前"
+
+msgid "Next"
+msgstr "下一个"
+
+msgid "Last"
+msgstr "最后"
+
+msgid "bits"
+msgstr "比特"
+
+msgid "Lose"
+msgstr "失去"
+
+msgid "Busted At:"
+msgstr "被打死:"
+
+msgid "Played:"
+msgstr "玩过:"

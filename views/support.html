@@ -1,0 +1,66 @@
+{{##def.page_title = 'Support' #}}
+
+{{##def.content:
+<script type="text/javascript">
+    function logout() {
+        if (document.getElementById('logout') ) {
+            if (confirm("Are you sure you want to log out?")) {
+                document.getElementById("logout").submit();
+            }
+        }
+    }
+</script>
+<form action="/logout" method="post" id='logout'></form>
+<div class="content row panel radius">
+
+    <div class="settings">
+        <div class="small-2 columns">
+            <ul class="menu">
+                <li>
+                    <a href="/account?locale={{=it.locale}}">{{=it.T("Account")}}</a>
+                </li>
+                <li>
+                    <a href="/security?locale={{=it.locale}}">{{=it.T("Security")}}</a>
+                </li>                
+                <li>
+                    <a href="/deposit?locale={{=it.locale}}">{{=it.T("Deposit")}}</a>
+                </li>                
+                <li>
+                    <a href="/withdraw?locale={{=it.locale}}">{{=it.T("Withdraw")}}</a>
+                </li>                
+                <li>
+                    <a href="/transfer?locale={{=it.locale}}">{{=it.T("Transfer")}}</a>
+                </li>                
+                <li class="active">
+                   {{=it.T("Support")}}
+                </li>
+                <li>
+                    <a onclick="logout();">
+                        {{=it.T("Logout")}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="small-10 columns sets-content">
+            <h5>{{=it.T("Need help? please contact us")}}</h5>
+                <hr>
+                <div class="row contact">
+                    <form action="/support" id="contact" method="post">
+
+                        <label for="email">{{=it.T("Email")}}</label>
+                        <input type="email" id="email" name="email" value="{{!it.user.email}}" required=""/>
+
+
+
+                        <label for="message">{{=it.T("Message")}}</label>
+                        <textarea rows="10" id="message" name="message" required> </textarea>
+                        <input type="submit" class="border-button right blue" value="{{=it.T('Send!')}}"/>
+                    </form>
+
+                </div>
+
+        </div>
+    </div>
+</div>
+#}}
+{{#def.include('./template/main_old')}}

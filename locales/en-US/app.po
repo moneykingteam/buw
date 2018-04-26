@@ -1,0 +1,1127 @@
+msgid ""
+msgstr ""
+
+msgid "bustabitclub"
+msgstr "bustabitclub"
+
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+msgid "Stats"
+msgstr "Stats"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+#: index.html+div.div.div.h1:8
+msgid "The Social Gambling Game"
+msgstr "The Social Gambling Game"
+
+#: index.html+div.div.div.div:12
+msgid "Play Now!"
+msgstr "Play Now!"
+
+msgid "Play with the old theme!"
+msgstr "Play with the old theme!"
+
+#: index.html+div.div.div.h4:29
+msgid "Luck"
+msgstr "Luck"
+
+msgid "Skill"
+msgstr "Skill"
+
+#: index.html+div.div.div.p:30
+msgid "Play for fun! Or play to win!"
+msgstr "Play for fun! Or play to win!"
+
+msgid "See strategy guide"
+msgstr "See strategy guide"
+
+#: index.html+div.div.div.h4:39
+msgid "Real Time"
+msgstr "Real Time"
+
+#: index.html+div.div.div.p.br:40
+msgid "Watch your fortune rise<br > in real time!"
+msgstr "Watch your fortune rise<br > in real time!"
+
+#: index.html+div.div.div.h4:48
+msgid "Secure"
+msgstr "Secure"
+
+#: index.html+div.div.div.p:49
+msgid "Offline storage"
+msgstr "Offline storage"
+
+msgid "Provably fair"
+msgstr "Provably fair"
+
+msgid "Razor thin"
+msgstr "Razor thin"
+
+msgid "house edge"
+msgstr "house edge"
+
+msgid "between 0 and 1%"
+msgstr "between 0 and 1%"
+
+#: index.html+div.div.div.h4:59
+msgid "Social"
+msgstr "Social"
+
+#: index.html+div.div.div.p:60
+msgid "Play with friends<br /> and beat your foes"
+msgstr "Play with friends<br /> and beat your foes"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Log in"
+msgstr "Log in"
+
+msgid "Strategy Guide"
+msgstr "Strategy Guide"
+
+msgid "input captcha"
+msgstr "input captcha"
+
+msgid ""
+"<b>Bustabit</b> is a game of 99% luck, but 1% skill. This means that if you "
+"play in a strategy-oblivious way, you'll not do too bad. But with a good "
+"enough strategy, it's actually possible to overcome the house odds, and even "
+"make a profit."
+msgstr ""
+"<b>Bustabit</b> is a game of 99% luck, but 1% skill. This means that if you "
+"play in a strategy-oblivious way, you'll not do too bad. But with a good "
+"enough strategy, it's actually possible to overcome the house odds, and even "
+"make a profit."
+
+msgid "Here's how it works:"
+msgstr "Here's how it works:"
+
+msgid ""
+"Right off the bat, there's a <b>1%</b> chance of the game instantly busting. "
+"If this happens, no one can win anything. This means bustabit.club has an "
+"expected return of <code>1% * playersInGame * tableAmount</code>. This is "
+"the <b>exact amount</b> bustabit uses to give out bonuses."
+msgstr "
+"Right off the bat, there's a <b>1%</b> chance of the game instantly busting. "
+"If this happens, no one can win anything. This means bustabit.club has an "
+"expected return of <code>1% * playersInGame * tableAmount</code>. This is "
+"the <b>exact amount</b> bustabit uses to give out bonuses."
+
+msgid "Instabust"
+msgstr "Instabust"
+
+msgid "House Edge"
+msgstr "House Edge"
+
+msgid "It scales between 0 and 1%"
+msgstr "It scales between 0 and 1%"
+
+msgid "see: odds and calculator."
+msgstr "see: odds and calculator."
+
+msgid "This is what you need to overcome!"
+msgstr "This is what you need to overcome!"
+
+msgid "Bonuses"
+msgstr "Bonuses"
+
+msgid ""
+"The last person to <b>cash out</b> before a bust gets a bonus, which on "
+"average is exactly the same as the server makes from the instabust"
+msgstr ""
+"The last person to <b>cash out</b> before a bust gets a bonus, which on "
+"average is exactly the same as the server makes from the instabust"
+
+msgid "see: faq"
+msgstr "see: faq"
+
+msgid ""
+"Strategic play revolves completely around "
+"trying to get this bonus. If no one collects the bonus, it <b>rolls to the "
+"next game.</b>"
+msgstr ""
+"Strategic play revolves completely around "
+"trying to get this bonus. If no one collects the bonus, it <b>rolls to the "
+"next game.</b>"
+
+msgid "Single Player Game"
+msgstr "Single Player Game"
+
+msgid ""
+"If you're playing a game, and no one else joins, it's not possible to "
+"overcome the <b>house odds</b>, and it becomes a simple game of luck."
+msgstr ""
+"If you're playing a game, and no one else joins, it's not possible to "
+"overcome the <b>house odds</b>, and it becomes a simple game of luck."
+
+msgid "Simple Greedy Strategy"
+msgstr "Simple Greedy Strategy"
+
+msgid ""
+"Hold in the game, as soon as you're the last person holding, cash out "
+"immediately. This is a great strategy if all your opponents are "
+"conservative, and cash out early. However, if you play against someone with "
+"the same strategy -- <b>you will both will infinitely hold, and never win "
+"the bonus.</b>"
+msgstr ""
+"Hold in the game, as soon as you're the last person holding, cash out "
+"immediately. This is a great strategy if all your opponents are "
+"conservative, and cash out early. However, if you play against someone with "
+"the same strategy -- <b>you will both will infinitely hold, and never win "
+"the bonus.</b>"
+
+msgid "Odds Calculator"
+msgstr "Odds Calculator"
+
+msgid "Loading Calculator..."
+msgstr "Loading Calculator..."
+
+msgid "Frequently Asked Questions"
+msgstr "Frequently Asked Questions"
+
+msgid "How to play?"
+msgstr "How to play?"
+
+msgid "What is a bit?"
+msgstr "What is a bit?"
+
+msgid "How can I get free bits?"
+msgstr "How can I get free bits?"
+
+msgid "How do I deposit bits?"
+msgstr "How do I deposit bits?"
+
+msgid "How long is the deposit address valid for?"
+msgstr "How long is the deposit address valid for?"
+
+msgid "How long for deposits to be credited to account?"
+msgstr "How long for deposits to be credited to account?"
+
+msgid "How do I withdraw bits?"
+msgstr "How do I withdraw bits?"
+
+msgid "What is Gross Profit?"
+msgstr "What is Gross Profit?"
+
+msgid "What happens if I disconnect form the game?"
+msgstr "What happens if I disconnect form the game?"
+
+msgid "How high can the game go?"
+msgstr "How high can the game go?"
+
+msgid "What is the most I can bet?"
+msgstr "What is the most I can bet?"
+
+msgid "What is the bonus?"
+msgstr "What is the bonus?"
+
+msgid "What are the game odds?"
+msgstr "What are the game odds?"
+
+msgid "How is the game bust calculated?"
+msgstr "How is the game bust calculated?"
+
+msgid "Is the game fair?"
+msgstr "Is the game fair?"
+
+msgid "How to verify the game results?"
+msgstr "How to verify the game results?"
+
+msgid "What happens when the server forces people to cash out?"
+msgstr "What happens when the server forces people to cash out?"
+
+msgid "What other gambling places do you recommend?"
+msgstr "What other gambling places do you recommend?"
+
+msgid "Gambling Addiction"
+msgstr "Gambling Addiction"
+
+msgid "Basics"
+msgstr "Basics"
+
+msgid "What is bitcoin gambling?"
+msgstr "What is bitcoin gambling?"
+
+msgid ""
+"Bitcoin gambling is a general term for any type of gambling wherein bets are placed in units of"
+" bitcoins as opposed to a fiat currency or any other asset. Learn more about"
+" the history of <a href=\"online-gambling-meets-bitcoin\">online gambling and bitcoin</a>."
+msgstr ""
+"Bitcoin gambling is a general term for any type of gambling wherein bets are placed in units of"
+" bitcoins as opposed to a fiat currency or any other asset. Learn more about"
+" the history of <a href=\"online-gambling-meets-bitcoin\">online gambling and bitcoin</a>."
+
+msgid ""
+"Place a bet. Watch the multiplier increase from 1x upwards! Cash out any "
+"time to get your bet multiplied by that multiplier. But be careful because "
+"the game can bust at any time, and you'll get nothing!"
+msgstr ""
+"Place a bet. Watch the multiplier increase from 1x upwards! Cash out any "
+"time to get your bet multiplied by that multiplier. But be careful because "
+"the game can bust at any time, and you'll get nothing!"
+
+msgid ""
+"A bit is a millionth of a bitcoin or 100 satoshis. At the time of this "
+"writing, a single bit is worth roughly $0.0003 USD. You are able to deposit "
+"and withdraw bits at any time by going to your <a href=\"/account\">account "
+"page</a>."
+msgstr ""
+"A bit is a millionth of a bitcoin or 100 satoshis. At the time of this "
+"writing, a single bit is worth roughly $0.0003 USD. You are able to deposit "
+"and withdraw bits at any time by going to your <a href=\"/account\">account "
+"page</a>."
+
+msgid ""
+"Every hour you can claim 2 free bits on your account page. We do this so "
+"that you may test and enjoy the game without any commitment. There are no "
+"strings attached, you may withdraw this money if you so please, but we ask "
+"you to refrain from abusing this feature."
+msgstr ""
+"Every hour you can claim 2 free bits on your account page. We do this so "
+"that you may test and enjoy the game without any commitment. There are no "
+"strings attached, you may withdraw this money if you so please, but we ask "
+"you to refrain from abusing this feature."
+
+msgid "Deposits"
+msgstr "Deposits"
+
+msgid ""
+"You will need to transfer bitcoins to the deposit address on your account "
+"page. If you do not have any bitcoins, we can recommend <a href=\""
+"https://coinbase.com\">Coinbase</a> if you are in the US (although the "
+"registration process is lengthy). Another great option is <a href=\""
+"https://localbitcoins.com/\">LocalBitcoins.com</a>, which lists traders in "
+"your area willing to sell (or buy) bitcoins. You can also search online to "
+"see if there are any bitcoin ATMs near you. And remember, you can withdraw "
+"directly to the bitcoin address on your account page!"
+msgstr ""
+"You will need to transfer bitcoins to the deposit address on your account "
+"page. If you do not have any bitcoins, we can recommend <a href=\""
+"https://coinbase.com\">Coinbase</a> if you are in the US (although the "
+"registration process is lengthy). Another great option is <a href=\""
+"https://localbitcoins.com/\">LocalBitcoins.com</a>, which lists traders in "
+"your area willing to sell (or buy) bitcoins. You can also search online to "
+"see if there are any bitcoin ATMs near you. And remember, you can withdraw "
+"directly to the bitcoin address on your account page!"
+
+msgid "How long is the deposit address valid?"
+msgstr "How long is the deposit address valid?"
+
+msgid ""
+"It is <strong>permanently</strong> attached to your account. You can save "
+"it, or use it for automatic funding, or whatever else you like. All payments "
+"to this address will be automatically credited to your account."
+msgstr ""
+"It is <strong>permanently</strong> attached to your account. You can save "
+"it, or use it for automatic funding, or whatever else you like. All payments "
+"to this address will be automatically credited to your account."
+
+msgid "How long do deposits take to be credited?"
+msgstr "How long do deposits take to be credited?"
+
+msgid ""
+"We instantly credit accounts upon a single confirmation, which on average is "
+"approximately 10 minutes from the time of the transaction."
+msgstr ""
+"We instantly credit accounts upon a single confirmation, which on average is "
+"approximately 10 minutes from the time of the transaction."
+
+msgid ""
+"On your account page, you can transfer bits to any bitcoin address you want. "
+"Small withdrawals (i.e. smaller than the balance of our hot-wallet) are "
+"processed instantly and you will be given the transaction ID immediately."
+msgstr ""
+"On your account page, you can transfer bits to any bitcoin address you want. "
+"Small withdrawals (i.e. smaller than the balance of our hot-wallet) are "
+"processed instantly and you will be given the transaction ID immediately."
+
+msgid ""
+"Larger withdrawals will be shown in your withdrawal page as \"PENDING\" and "
+"will require us to manually remove sufficient funds from our cold storage. "
+"Usually this process will take less than two hours, but may take up to 24 "
+"hours, depending on the time of day and other circumstances."
+msgstr ""
+"Larger withdrawals will be shown in your withdrawal page as \"PENDING\" and "
+"will require us to manually remove sufficient funds from our cold storage. "
+"Usually this process will take less than two hours, but may take up to 24 "
+"hours, depending on the time of day and other circumstances."
+
+msgid ""
+"We remove 100 bits (about 0.05 USD) from any withdrawal amount to cover "
+"mining fees. We charge this amount <strong>regardless</strong> of the actual "
+"mining fees attached to the transaction, which may be more or less than "
+"this, depending on the block competition at the time of your withdrawal."
+msgstr ""
+"We remove 100 bits (about 0.05 USD) from any withdrawal amount to cover "
+"mining fees. We charge this amount <strong>regardless</strong> of the actual "
+"mining fees attached to the transaction, which may be more or less than "
+"this, depending on the block competition at the time of your withdrawal."
+
+msgid ""
+"Withdrawals must be in increments of 1 bit (100 satoshis), with a minimum "
+"withdrawal of 200 bits (of which 100 bits goes towards the mining fee). As "
+"required, we will chip in our own money to help expedite confirmation time, "
+"such that we typically pay 200 bits in mining fees, despite charging you "
+"only 100 bits."
+msgstr ""
+"Withdrawals must be in increments of 1 bit (100 satoshis), with a minimum "
+"withdrawal of 200 bits (of which 100 bits goes towards the mining fee). As "
+"required, we will chip in our own money to help expedite confirmation time, "
+"such that we typically pay 200 bits in mining fees, despite charging you "
+"only 100 bits."
+
+msgid "What is gross profit?"
+msgstr "What is gross profit?"
+
+msgid ""
+"Gross profit refers to the sum of the profit from each game you've played "
+"without considering your loses."
+msgstr ""
+"Gross profit refers to the sum of the profit from each game you've played "
+"without considering your loses."
+
+msgid "Game"
+msgstr "Game"
+
+msgid "What happens if I disconnect from the game?"
+msgstr "What happens if I disconnect from the game?"
+
+msgid ""
+"Upon detecting that you have disconnected we cash you out (assuming the game "
+"is still in progress). Regardless of whether your client is connected or "
+"not, the <em>auto cash-out</em> feature will work as expected (it happens on "
+"the server), and we highly recommend you use it if internet reliability or "
+"performance is a concern."
+msgstr ""
+"Upon detecting that you have disconnected we cash you out (assuming the game "
+"is still in progress). Regardless of whether your client is connected or "
+"not, the <em>auto cash-out</em> feature will work as expected (it happens on "
+"the server), and we highly recommend you use it if internet reliability or "
+"performance is a concern."
+
+msgid ""
+"There's no real limit! However, if during a game we ever are facing a net "
+"loss of 3% of the bankroll or greater, the server will automatically cash "
+"out all players still in the game, forcing them to enjoy an early win and a "
+"sizeable profit. You can see in game what the current max win is (in the "
+"bottom right of the chart)"
+msgstr ""
+"There's no real limit! However, if during a game we ever are facing a net "
+"loss of 3% of the bankroll or greater, the server will automatically cash "
+"out all players still in the game, forcing them to enjoy an early win and a "
+"sizeable profit. You can see in game what the current max win is (in the "
+"bottom right of the chart)"
+
+msgid "We currently have a bet limit of 1,000,000 bits (1 BTC)."
+msgstr "We currently have a bet limit of 1,000,000 bits (1 BTC)."
+
+msgid ""
+"The bonus is a special prize that is awarded to the last people to cash out "
+"before the game busted. Getting the bonus is critical to skillful playing of "
+"bustabit, as it is the <strong>only</strong> way to overcome house odds."
+msgstr ""
+"The bonus is a special prize that is awarded to the last people to cash out "
+"before the game busted. Getting the bonus is critical to skillful playing of "
+"bustabit, as it is the <strong>only</strong> way to overcome house odds."
+
+msgid ""
+"1% of each player's stake goes into the bonus pot. So if there are 4 "
+"players, betting 400, 300, 200, and 100, there will be 10 bits in the pot. "
+"If the biggest player wins, he gets the whole pot. The site works out the "
+"rate he would be getting if he won, ie. 400 bits bet gives 10 bits bonus - "
+"or 1/40th bonus per bit bet. It then applies the same rate to whoever "
+"actually wins."
+msgstr ""
+"1% of each player's stake goes into the bonus pot. So if there are 4 "
+"players, betting 400, 300, 200, and 100, there will be 10 bits in the pot. "
+"If the biggest player wins, he gets the whole pot. The site works out the "
+"rate he would be getting if he won, ie. 400 bits bet gives 10 bits bonus - "
+"or 1/40th bonus per bit bet. It then applies the same rate to whoever "
+"actually wins."
+
+msgid ""
+"So if the 100 bit player wins, he gets 1/40th of 100, or 2.5 bits. That "
+"leaves 7.5 bits in the pot, which goes to the next best placing player(s)."
+msgstr ""
+"So if the 100 bit player wins, he gets 1/40th of 100, or 2.5 bits. That "
+"leaves 7.5 bits in the pot, which goes to the next best placing player(s)."
+
+msgid ""
+"Suppose the 200 bit player comes 2nd. He is due 1/40th of 200, or 5 bits. "
+"There are still 7.5 bits in the pot, so he gets the full 5 bits he is due - "
+"the same as if he had come in 1st place."
+msgstr ""
+"Suppose the 200 bit player comes 2nd. He is due 1/40th of 200, or 5 bits. "
+"There are still 7.5 bits in the pot, so he gets the full 5 bits he is due - "
+"the same as if he had come in 1st place."
+
+msgid ""
+"Suppose the 300 bit player comes 3rd. He's due 7.5 bits (300/40) but there "
+"are only 2.5 bits left in the pot, so he gets those and that's all. There's "
+"nothing left for the 4th or worse place players."
+msgstr ""
+"Suppose the 300 bit player comes 3rd. He's due 7.5 bits (300/40) but there "
+"are only 2.5 bits left in the pot, so he gets those and that's all. There's "
+"nothing left for the 4th or worse place players."
+
+msgid ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+msgstr ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+
+msgid ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+msgstr ""
+"1% of games will instant bust (0x) and no bonuses will be awarded, all other "
+"games have bonuses equal to 1% of the amount wagered."
+
+msgid "Fairness"
+msgstr "Fairness"
+
+msgid ""
+"The house margin is scaled between 0 and 1 %, depending on how long you "
+"hold. An additional 1 % is effectively taken from every bet and put into the "
+"<a href=\"#bonus\">bonus pool</a>, which is distributed in its entirety "
+"every game. As a consequence, skilless or random play has—at worst—an "
+"expected return of -2 %, but it is possible to overcome the house margin by "
+"skillfully getting bonuses."
+msgstr ""
+"The house margin is scaled between 0 and 1 %, depending on how long you "
+"hold. An additional 1 % is effectively taken from every bet and put into the "
+"<a href=\"#bonus\">bonus pool</a>, which is distributed in its entirety "
+"every game. As a consequence, skilless or random play has—at worst—an "
+"expected return of -2 %, but it is possible to overcome the house margin by "
+"skillfully getting bonuses."
+
+msgid ""
+"The numbers are baked into the game, so you never need to worry about it. We "
+"do not have a fixed house margin, as this would prevent highly conservative "
+"play (e.g. If you were only attempting to make $2 in a $100 game, a house "
+"margin of 1 % would be 50 % of your potential profits!). Our unique formula "
+"makes it fair for both highly conservative play (cash out early) and highly "
+"aggressive play (hold until you're a millionaire). All games are <a href=\"#"
+"fair\">provably fair</a>."
+msgstr ""
+"The numbers are baked into the game, so you never need to worry about it. We "
+"do not have a fixed house margin, as this would prevent highly conservative "
+"play (e.g. If you were only attempting to make $2 in a $100 game, a house "
+"margin of 1 % would be 50 % of your potential profits!). Our unique formula "
+"makes it fair for both highly conservative play (cash out early) and highly "
+"aggressive play (hold until you're a millionaire). All games are <a href=\"#"
+"fair\">provably fair</a>."
+
+msgid ""
+"The exact formula for the houses expected return is:<br /> <code>1 % * ("
+"intendedCashOut - roomAmount) * (roomAmount / intendedCashOut)</code><br /> "
+"But to really get a good sense of how this affects you, please use our handy "
+"<a href=\"/calculator\">odds calculator</a>."
+msgstr ""
+"The exact formula for the houses expected return is:<br /> <code>1 % * ("
+"intendedCashOut - roomAmount) * (roomAmount / intendedCashOut)</code><br /> "
+"But to really get a good sense of how this affects you, please use our handy "
+"<a href=\"/calculator\">odds calculator</a>."
+
+msgid ""
+"The other important thing to keep in mind is that every game has a 1 % "
+"chance of instantly busting. We do not make <strong>any</strong> money on "
+"it, but rather use this to fund the bonus scheme. This is an important "
+"consideration to make if you are playing in such a way that you never win "
+"the bonus."
+msgstr ""
+"The other important thing to keep in mind is that every game has a 1 % "
+"chance of instantly busting. We do not make <strong>any</strong> money on "
+"it, but rather use this to fund the bonus scheme. This is an important "
+"consideration to make if you are playing in such a way that you never win "
+"the bonus."
+
+msgid "The code that decides the multiplier for each round is here:"
+msgstr "The code that decides the multiplier for each round is here:"
+
+msgid "It basically does three things."
+msgstr "It basically does three things."
+
+msgid ""
+"First, it mixes the hash with the clientSeed (decided by the provably fair "
+"seeding event) using hmac-sha256"
+msgstr ""
+"First, it mixes the hash with the clientSeed (decided by the provably fair "
+"seeding event) using hmac-sha256"
+
+msgid "Secondly it gives a 1 in 101 chance of instant busting"
+msgstr "Secondly it gives a 1 in 101 chance of instant busting"
+
+msgid ""
+"Third, it works out what the multiplier would be if there was no house edge."
+msgstr ""
+"Third, it works out what the multiplier would be if there was no house edge."
+
+msgid "Fourth, it takes 1% off the multiplier and adds on 0.01x:"
+msgstr "Fourth, it takes 1% off the multiplier and adds on 0.01x:"
+
+msgid ""
+"So half the time (other than 0x bust which we can ignore because they pay "
+"for themselves with the bonus) the multiplier will be 1.99x or more."
+msgstr ""
+"So half the time (other than 0x bust which we can ignore because they pay "
+"for themselves with the bonus) the multiplier will be 1.99x or more."
+
+msgid ""
+"That means if we bet 1.99x we have a 50% chance of winning (again, ignoring "
+"0x busts), and so the house edge is:"
+msgstr ""
+"That means if we bet 1.99x we have a 50% chance of winning (again, ignoring "
+"0x busts), and so the house edge is:"
+
+msgid ""
+"The extra 0.01 that gets added on to the multiplier is half of the 1% that "
+"was taken off in this case, leaving the house edge at 0.5%. As the "
+"multiplier gets bigger, the 1% that is taken off gets bigger, and the 0.01x "
+"that gets added on becomes less and less significant, causing the house edge "
+"to tend to 1%"
+msgstr ""
+"The extra 0.01 that gets added on to the multiplier is half of the 1% that "
+"was taken off in this case, leaving the house edge at 0.5%. As the "
+"multiplier gets bigger, the 1% that is taken off gets bigger, and the 0.01x "
+"that gets added on becomes less and less significant, causing the house edge "
+"to tend to 1%"
+
+msgid ""
+"Absolutely! And we can prove it. Please see: <a href=\""
+"https://bitcointalk.org/index.php?topic=922898.0\">the bitcoin talk "
+"thread</a> for technical details."
+msgstr ""
+"Absolutely! And we can prove it. Please see: <a href=\""
+"https://bitcointalk.org/index.php?topic=922898.0\">the bitcoin talk "
+"thread</a> for technical details."
+
+msgid "There are already 3rd party scripts to verify the game hashes and to calculate the results like this"
+msgstr "There are already 3rd party scripts to verify the game hashes and to calculate the results like this"
+
+msgid ""
+"Under some circumstances the server will force people to cash out. The most "
+"common reason is that the game multiplier has gotten so large that we are "
+"risking too much of our bankroll (10 % or more). Another possible reason is "
+"unexpected server problems. If more than one person in a game is affected by "
+"the forced cash-out, we allocate the last cash-out bonus to a random player."
+msgstr ""
+"Under some circumstances the server will force people to cash out. The most "
+"common reason is that the game multiplier has gotten so large that we are "
+"risking too much of our bankroll (10 % or more). Another possible reason is "
+"unexpected server problems. If more than one person in a game is affected by "
+"the forced cash-out, we allocate the last cash-out bonus to a random player."
+
+msgid ""
+"A couple quick pointers: the lower the house edge the more variance you will "
+"experience which means a longer, more exciting gaming session. Bitcoin "
+"Casinos generally offer better odds, less fees and faster deposits and "
+"withdrawals than fiat based casinos. Be extremely skeptical of generous "
+"reward programs, bonuses (e.g. deposit bonuses), affiliate programs and the "
+"likes. The money comes from somewhere: you."
+msgstr ""
+"A couple quick pointers: the lower the house edge the more variance you will "
+"experience which means a longer, more exciting gaming session. Bitcoin "
+"Casinos generally offer better odds, less fees and faster deposits and "
+"withdrawals than fiat based casinos. Be extremely skeptical of generous "
+"reward programs, bonuses (e.g. deposit bonuses), affiliate programs and the "
+"likes. The money comes from somewhere: you."
+
+msgid ""
+"Instead of listing our favorites here, we'll defer to the excellent <a href="
+"\"https://thebitcoinstrip.com/\">bitcoin strip</a>"
+msgstr ""
+"Instead of listing our favorites here, we'll defer to the excellent <a href="
+"\"https://thebitcoinstrip.com/\">bitcoin strip</a>"
+
+msgid "Do you have gambling addiction?"
+msgstr "Do you have gambling addiction?"
+
+msgid ""
+"Gambling addiction, also known as compulsive gambling, is a type of impulse-"
+"control disorder. Compulsive gamblers can’t control the impulse to gamble, "
+"even when they know their gambling is hurting themselves or their loved "
+"ones. Gambling is all they can think about and all they want to do, no "
+"matter the consequences. Compulsive gamblers keep gambling whether they’re "
+"up or down, broke or flush, happy or depressed. Even when they know the odds "
+"are against them, even when they can’t afford to lose, people with a "
+"gambling addiction can’t “stay off the bet.”"
+msgstr ""
+"Gambling addiction, also known as compulsive gambling, is a type of impulse-"
+"control disorder. Compulsive gamblers can’t control the impulse to gamble, "
+"even when they know their gambling is hurting themselves or their loved "
+"ones. Gambling is all they can think about and all they want to do, no "
+"matter the consequences. Compulsive gamblers keep gambling whether they’re "
+"up or down, broke or flush, happy or depressed. Even when they know the odds "
+"are against them, even when they can’t afford to lose, people with a "
+"gambling addiction can’t “stay off the bet.”"
+
+msgid ""
+"Gamblers can have a problem, however, without being totally out of control. "
+"Problem gambling is any gambling behavior that disrupts your life. If you’re "
+"preoccupied with gambling, spending more and more time and money on it, "
+"chasing losses, or gambling despite serious consequences, you have a "
+"gambling problem."
+msgstr ""
+"Gamblers can have a problem, however, without being totally out of control. "
+"Problem gambling is any gambling behavior that disrupts your life. If you’re "
+"preoccupied with gambling, spending more and more time and money on it, "
+"chasing losses, or gambling despite serious consequences, you have a "
+"gambling problem."
+
+msgid ""
+"If you think you have this problem please visit one of these sites to get "
+"assistance:"
+msgstr ""
+"If you think you have this problem please visit one of these sites to get "
+"assistance:"
+
+msgid "Up"
+msgstr "Up"
+
+msgid "Top 100 players"
+msgstr "Top 100 players"
+
+msgid "Rank"
+msgstr "Rank"
+
+msgid "Player"
+msgstr "Player"
+
+msgid "Gross Profit"
+msgstr "Gross Profit"
+
+msgid "Net Profit"
+msgstr "Net Profit"
+
+msgid "Top"
+msgstr "Top"
+
+msgid "Statistics"
+msgstr "Statistics"
+
+msgid "Pending Withdraws:"
+msgstr "Pending Withdraws:"
+
+msgid "withdrawals that require admin to look at"
+msgstr "withdrawals that require admin to look at"
+
+
+msgid "Unterminated Games:"
+msgstr "Unterminated Games:"
+
+msgid "games that require admin to look at"
+msgstr "games that require admin to look at"
+
+msgid "Deposits:"
+msgstr "Deposits:"
+
+msgid "Withdrawals:"
+msgstr "Withdrawals:"
+
+msgid "Net:"
+msgstr "Net:"
+
+msgid "Total Wagered:"
+msgstr "Total Wagered:"
+
+msgid "Players won in cashed:"
+msgstr "Players won in cashed:"
+
+msgid "Players won in bonuses:"
+msgstr "Players won in bonuses:"
+
+msgid "Players won in total:"
+msgstr "Players won in total:"
+
+msgid "Our Profit:"
+msgstr "Our Profit:"
+
+msgid "Bankroll:"
+msgstr "Bankroll:"
+
+msgid "Max win per game:"
+msgstr "Max win per game:"
+
+msgid "Total Users:"
+msgstr "Total Users:"
+
+msgid "Total Plays:"
+msgstr "Total Plays:"
+
+msgid "Total Games:"
+msgstr "Total Games:"
+
+msgid "Create a new account "
+msgstr "Create a new account "
+
+msgid "already have one?"
+msgstr "already have one?"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "*Recovery Email"
+msgstr "*Recovery Email"
+
+msgid "<b>* Optional</b> although we <b>strongly advise you to use one</b>, otherwise it is <b>not possible</b> to password reset!"
+msgstr "<b>* Optional</b> although we <b>strongly advise you to use one</b>, otherwise it is <b>not possible</b> to password reset!"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Username only allowed alphanumeric, hyphen and underscore"
+msgstr "Username only allowed alphanumeric, hyphen and underscore"
+
+msgid "Password should be at least 7 characters"
+msgstr "Password should be at least 7 characters"
+
+msgid "Pick something secure, at least 7 characters"
+msgstr "Pick something secure, at least 7 characters"
+
+msgid "Captcha Authentication"
+msgstr "Captcha Authentication"
+
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+msgid "Remember me"
+msgstr "Remember me"
+
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Place bet"
+msgstr "Place bet"
+
+msgid "Login to play"
+msgstr "Login to play"
+
+msgid "information"
+msgstr "information"
+
+msgid "Bet"
+msgstr "Bet"
+
+msgid "Cashed Out"
+msgstr "Cashed Out"
+
+msgid "Bonus"
+msgstr "Bonus"
+
+msgid "Profit"
+msgstr "Profit"
+
+msgid "Hash"
+msgstr "Hash"
+
+msgid "Players"
+msgstr "Players"
+
+msgid "Games Played"
+msgstr "Games Played"
+
+msgid "You are not authorized to see this"
+msgstr "You are not authorized to see this"
+
+msgid "Please login and try it again"
+msgstr "Please login and try it again"
+
+msgid "The page you are looking for doesn't exist..."
+msgstr "The page you are looking for doesn't exist..."
+
+msgid "Go Home"
+msgstr "Go Home"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "Deposit"
+msgstr "Deposit"
+
+msgid "Withdraw"
+msgstr "Withdraw"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Deposit Address"
+msgstr "Deposit Address"
+
+msgid "Public Profile"
+msgstr "Public Profile"
+
+msgid "Bitcoin link"
+msgstr "Bitcoin link"
+
+msgid ""
+"Transfer bitcoins to this address to have your account credited. Accounts are only credited after <b>one bitcoin confirmation</b>"
+" which depending on external factors can take a while."
+msgstr ""
+"Transfer bitcoins to this address to have your account credited. Accounts are only credited after <b>one bitcoin confirmation</b>"
+" which depending on external factors can take a while."
+
+msgid "more"
+msgstr "more"
+
+msgid "Account Information"
+msgstr "Account Information"
+
+msgid "Deposits"
+msgstr "Deposits"
+
+msgid "Withdrawals"
+msgstr "Withdrawals"
+
+msgid "Free Bits Collected"
+msgstr "Free Bits Collected"
+
+msgid "Net Profit"
+msgstr "Net Profit"
+
+msgid "Loading Calculator..."
+msgstr "Loading Calculator..."
+
+msgid "Contact Us"
+msgstr "Contact Us"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Deposit History"
+msgstr "Deposit History"
+
+msgid "Deposit Address"
+msgstr "Deposit Address"
+
+msgid "Transaction"
+msgstr "Transaction"
+
+msgid "You don't have deposits"
+msgstr "You don't have deposits"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Something bad happened. My humans are working to fix this mess, please come back later..."
+msgstr "Something bad happened. My humans are working to fix this mess, please come back later..."
+
+msgid "Enter your email"
+msgstr "Enter your email"
+
+msgid "Add a giveaway"
+msgstr "Add a giveaway"
+
+msgid "users"
+msgstr "users"
+
+msgid "back"
+msgstr "back"
+
+msgid "Please enter your 2FA token"
+msgstr "Please enter your 2FA token"
+
+msgid "Request Free Bits"
+msgstr "Request Free Bits"
+
+msgid "Every hour you are able to request 2 free bits, just claim them!"
+msgstr "Every hour you are able to request 2 free bits, just claim them!"
+
+msgid "Password reset"
+msgstr "Password reset"
+
+msgid "at least 7 characters"
+msgstr "at least 7 characters"
+
+msgid "Confirmation"
+msgstr "Confirmation"
+
+msgid "New Password"
+msgstr "New Password"
+
+msgid "At least 7 characters"
+msgstr "At least 7 characters"
+
+msgid "In case you've forgotten your password we can send you a link to reset it, otherwise you don't have other way to recover your account."
+msgstr "In case you've forgotten your password we can send you a link to reset it, otherwise you don't have other way to recover your account."
+
+msgid "Recovery Email"
+msgstr "Recovery Email"
+
+msgid "Confirmation Password"
+msgstr "Confirmation Password"
+
+msgid "Disable Two-Factor Authentication"
+msgstr "Disable Two-Factor Authentication"
+
+msgid "To disable two-factor authentication, please enter your one-time password."
+msgstr "To disable two-factor authentication, please enter your one-time password."
+
+msgid "Enable Two-Factor Authentication"
+msgstr "Enable Two-Factor Authentication"
+
+msgid "To enable two-factor authentication, scan the following QR code or enter the secret manually, then enter your one-time password to confirm."
+msgstr "To enable two-factor authentication, scan the following QR code or enter the secret manually, then enter your one-time password to confirm."
+
+msgid ""
+"If you lose your two-factor authentication codes you may be permanently locked out of your account. Ensure you backup "
+"your 2FA application, or save this QR code or secret. Do not enable 2FA unless you are sure you have a safe copy of this information"
+msgstr ""
+"If you lose your two-factor authentication codes you may be permanently locked out of your account. Ensure you backup "
+"your 2FA application, or save this QR code or secret. Do not enable 2FA unless you are sure you have a safe copy of this information"
+
+msgid "Need help? please contact us"
+msgstr "Need help? please contact us"
+
+msgid "Game Loading"
+msgstr "Game Loading"
+
+msgid "Request A Withdrawal"
+msgstr "Request A Withdrawal"
+
+msgid ""
+"<strong>Note:</strong> Your withdrawal will be sent from the hot wallet, do not withdraw to any site "
+"that uses the sending address, or returns to sender, because any returns will probably be credited to a different player."
+msgstr ""
+"<strong>Note:</strong> Your withdrawal will be sent from the hot wallet, do not withdraw to any site "
+"that uses the sending address, or returns to sender, because any returns will probably be credited to a different player."
+
+msgid "Bits amount"
+msgstr "Bits amount"
+
+msgid "Destination Address"
+msgstr "Destination Address"
+
+msgid "our password"
+msgstr "our password"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Request Withdraw"
+msgstr "Request Withdraw"
+
+msgid "Withdraw History"
+msgstr "Withdraw History"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Transferred"
+msgstr "Transferred"
+
+msgid "You have no withdrawals in your account."
+msgstr "You have no withdrawals in your account."
+
+msgid "You have made nor received any transfers."
+msgstr "You have made nor received any transfers."
+
+msgid "Send!"
+msgstr "Send!"
+
+msgid "Change"
+msgstr "Change"
+
+msgid "save"
+msgstr "save"
+
+msgid "Disable"
+msgstr "Disable"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "Update Your Password"
+msgstr "Update Your Password"
+
+msgid "Old Password"
+msgstr "Old Password"
+
+msgid "Transfer"
+msgstr "Transfer"
+
+msgid "Edit Email Address"
+msgstr "Edit Email Address"
+
+msgid "2FA Code"
+msgstr "2FA Code"
+
+msgid "Your password"
+msgstr "Your password"
+
+msgid "Transfer History"
+msgstr "Transfer History"
+
+msgid "Transfer Bits"
+msgstr "Transfer Bits"
+
+msgid "From"
+msgstr "From"
+
+msgid "To"
+msgstr "To"
+
+msgid "Amount"
+msgstr "Amount"
+
+msgid "Time"
+msgstr "Time"
+
+msgid "User"
+msgstr "User"
+
+msgid "No recaptcha submitted, go back and try again..."
+msgstr "No recaptcha submitted, go back and try again..."
+
+msgid "add!"
+msgstr "add!"
+
+msgid "Bits"
+msgstr "Bits"
+
+msgid "First"
+msgstr "First"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Last"
+msgstr "Last"
+
+msgid "bits"
+msgstr "bits"
+
+msgid "Lose"
+msgstr "Lose"
+
+msgid "Busted At:"
+msgstr "Busted At:"
+
+msgid "Played:"
+msgstr "Played:"

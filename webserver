@@ -1,0 +1,4 @@
+export DATABASE_URL=postgres://mybabuser:MyBab2014@localhost/mybabdb
+export BIP32_DERIVED_KEY=xpub6B9dN8ghhQszDeyBR5gGujPpe2zcDu2zGZDjJgXewJqhY6wjqMYGkY9qNy8LtoW9Nf7erETvyn2bdaAgMKQ4R8u5GSM9unJWEBZYTWdaD1n
+export BANKROLL_OFFSET=1000e8
+export SITE_URL=https://bustabit.club

@@ -1,0 +1,96 @@
+{{##def.page_title = 'The Social Bustabit Official Website' #}}
+
+{{##def.content:
+    <div class="index">
+        <div class="grid">
+            <div class="col-1-1">
+                <h1 class="title">{{=it.T("The Social Gambling Game")}}</h1>
+            </div>
+
+            <div class="play-btn-col col-1-1">
+                <div class="play-btn-cont">
+                    <a href="/play?locale={{=it.locale}}" class="play">
+                        {{=it.T("Play Now!")}}
+                    </a>
+                    <a class="play-old">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="features grid">
+
+            <div class="feature col-1-5">
+                <div>
+                    <img src="img/icons/dart.png" alt=""/>
+                </div>
+                <h4>99% {{=it.T("Luck")}}<br />&nbsp;1% {{=it.T("Skill")}}</h4>
+                <p class="text">
+                    {{=it.T("Play for fun! Or play to win!")}} <br>
+                    <a href="/guide?locale={{=it.locale}}">{{=it.T("See strategy guide")}}</a>
+                </p>
+            </div>
+            <div class="feature col-1-5">
+                <div>
+                    <img src="img/icons/chart.png" alt=""/>
+                </div>
+                <h4>{{=it.T("Real Time")}}</h4>
+                <p class="text">
+                    {{=it.T("Watch your fortune rise<br > in real time!")}}
+                </p>
+            </div>
+            <div class="feature col-1-5">
+                <div>
+                    <img src="img/icons/secure.png" alt=""/>
+                </div>
+                <h4>{{=it.T("Secure")}}</h4>
+                <p class="text">
+                    {{=it.T("Offline storage")}}<br>
+                    <a href="faq?locale={{=it.locale}}#fair">{{=it.T("Provably fair")}}</a><br>
+                    {{=it.T("Razor thin")}} <a href="faq?locale={{=it.locale}}#odds">{{=it.T("house edge")}}</a> ({{=it.T("between 0 and 1%")}})
+                </p>
+            </div>
+            <div class="feature col-1-5">
+                <div>
+                    <img src="img/icons/multiplayer.png" alt=""/>
+                </div>
+                <h4>{{=it.T("Social")}}</h4>
+                <p class="text">
+                    {{=it.T("Play with friends<br />
+                    and beat your foes")}}
+                </p>
+            </div>
+            <style type="text/css">
+                    span {color: orange;}
+                    .up {color: green;}
+                    .down {color: red;}
+                    .exchange {color: #42f492;}
+            </style>
+            <script src="angular.min.js"></script>
+            <script src="zepto.min.js"></script>
+            <div class="feature col-1-5">
+                <div>
+                    <img src="img/icons/btc.png" alt=""/>
+                </div>
+                <h4 class="price-display">1BTC=$<span class="price" id="PRICE_BTC"></span></h4>
+                <h5>24h Change: <span id="CHANGE24HOUR_BTC"></span><span id="CHANGE24HOURPCT_BTC"></span><br></h5>
+                <h5>Last Market: <span class="exchange" id="LASTMARKET_BTC"></span> <br></h5>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.js"></script>
+            <script src="ccc-streamer-utilities.js"></script>
+            <script src="stream.js"></script>
+        </div>
+
+        <div class="features grid">
+            <div class="feature col-1-1">
+                <div>
+                    <img src="img/skype.jpg" alt=""/>
+                </div>
+                <!--<h4>roman_jim@outlook.com</h4>-->
+		<h5>We can help you with development support, administrator panel, and operation. support address : henrylight_2014@hotmail.com<h5>                
+            </div>
+        </div>
+    </div>
+#}}
+{{#def.include('./template/main_new')}}
+

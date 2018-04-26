@@ -1,0 +1,136 @@
+{{##def.page_title = 'Security Settings' #}}
+{{##def.content:
+<script type="text/javascript">
+    function randomPassword(len) { 
+        var chars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNP123456789"; 
+        if (window && window.crypto && window.crypto.getRandomValues && Uint32Array && Uint32Array.prototype.reduce) { 
+            return window.crypto.getRandomValues(new Uint32Array(len)).reduce(function(p, n) { 
+                return p + chars[n % chars.length] }, ""); 
+        } else { 
+            console.warn('Falling back to pseudo-random client seed'); 
+            var pass = ""; 
+            for (var i = 0; i < len; ++i) 
+                pass += chars[Math.floor(Math.random() * chars.length)]; return pass; 
+        } 
+    }
+    function generate() { 
+        document.getElementById('password').value = randomPassword(11); 
+    }
+    function logout() {
+        if (document.getElementById('logout') ) {
+            if (confirm("Are you sure you want to log out?")) {
+                document.getElementById("logout").submit();
+            }
+        }
+    }
+</script>
+<form action="/logout" method="post" id='logout'></form>
+<div class="content row panel radius">
+
+    <div class="settings">
+        <div class="small-2 columns">
+            <ul class="menu">
+                <li>
+                    <a href="/account?locale={{=it.locale}}">{{=it.T("Account")}}</a>
+                </li>
+                <li class="active">
+                   {{=it.T("Security")}}
+                </li>
+                <li>
+                    <a href="/deposit?locale={{=it.locale}}">{{=it.T("Deposit")}}</a>
+                </li>
+                <li>
+                    <a href="/withdraw?locale={{=it.locale}}">{{=it.T("Withdraw")}}</a>
+                </li>
+                <li>
+                    <a href="/transfer?locale={{=it.locale}}">{{=it.T("Transfer")}}</a>
+                </li>
+                <li>
+                    <a href="/support?locale={{=it.locale}}">{{=it.T("Support")}}</a>
+                </li>
+                <li>
+                    <a onclick="logout();">
+                        {{=it.T("Logout")}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="small-10 columns sets-content">
+            <h5>{{=it.T("Update Your Password")}}</h5>
+            <form action="reset-password" method="post" >
+                <label for="old_password">{{=it.T("Old Password")}}</label>
+                <input name="old_password" type="password" id="old_password" autocomplete="off" required/>
+                {{?it.user.mfa_secret}}
+                    <label>{{=it.T("2FA Code")}}
+                        <input name="otp" type="text" pattern="[0-9]{6}" required />
+                    </label>
+                {{?}}
+                <label for="password">{{=it.T("New Password")}} <span class="small">{{=it.T("At least 7 characters")}}</span></label>
+                <input name="password" style="font-weight: bold" type="text" id="password" pattern=".{7,50}" required/>
+                <button type="button" onclick="generate();" tabindex="2" style="font-size: 0.875rem; background-color: #e58929; height: 2.3125rem; padding-top: 11px;"><i class="fa fa-refresh"></i> Another </button>
+                <input type="submit" class="border-button blue right" value="{{=it.T('Change')}}"/>
+            </form>
+            <br>
+            <br>
+            <hr>
+
+            <h5>{{=it.T("Edit Email Address")}}</h5>
+            <p class="small">{{=it.T("In case you've forgotten your password we can send you a link to reset it, otherwise you don't have other way to recover your account.")}}</p>
+
+            <form action="/edit-email" method="post">
+                <label for="email">{{=it.T("Recovery Email")}}</label>
+
+                <!-- fake fields are a workaround for chrome autofill getting the wrong fields -->
+                <input style="display:none" type="text" name="fakeusernameremembered"/>
+                <input style="display:none" type="password" name="fakepasswordremembered"/>
+
+                <input type="email" id="email" name="email" value="{{?it.user.email}}{{=it.user.email}}{{??}}{{?}}" />
+                <label for="password">{{=it.T("Confirmation Password")}}</label>
+                <input name="password" type="password" id="check_password" autocomplete="off" pattern=".{7,50}" required/>
+                {{?it.user.mfa_secret}}
+                    <label>{{=it.T("2FA Code")}}
+                        <input name="otp" type="text" autocomplete="off" pattern="[0-9]{6}" required />
+                    </label>
+                {{?}}
+                <input class="border-button right blue" type="submit" value="{{=it.T('save')}}"/>
+            </form>
+
+            <br>
+            <br>
+            <hr>
+            {{?it.user.mfa_secret}}
+                <h5>{{=it.T("Disable Two-Factor Authentication")}}</h5>
+                <p class="small">{{=it.T("To disable two-factor authentication, please enter your one-time password.")}}</p>
+                <form action="/disable-2fa" method="post">
+                    <label>{{=it.T("2FA Code")}}
+                        <input name="otp" type="text" pattern="[0-9]{6}" required />
+                    </label>
+                    <input class="border-button right blue" type="submit" value="{{=it.T('Disable')}}" />
+                </form>
+            {{??}}
+                <h5>{{=it.T("Enable Two-Factor Authentication")}}</h5>
+                <p class="small">
+                    {{=it.T("To enable two-factor authentication, scan the following QR code or enter the secret manually, then enter your one-time password to confirm.")}}
+                    <br>
+                    <b>{{=it.T("If you lose your two-factor authentication codes you may be permanently locked out of your account. Ensure you backup
+                        your 2FA application, or save this QR code or secret. Do not enable 2FA unless you are sure you have a safe copy of this information")}}</b>
+                </p>
+                <div class="column medium-6">
+                    {{=it.user.qr_svg}}
+                    <small>Secret: {{=it.user.mfa_potential_secret}}</small>
+                </div>
+                <form class="column medium-6" action="/enable-2fa" method="post">
+                    <label>{{=it.T("2FA Code")}}
+                        <input type="hidden" name="mfa_potential_secret" value="{{=it.user.mfa_potential_secret}}" />
+                        <input type="hidden" name="sig" value="{{=it.user.sig}}" />
+                        <input name="otp" type="text" pattern="[0-9]{6}" required />
+                    </label>
+                    <input class="border-button right blue" type="submit" value="{{=it.T('Enable')}}" />
+                </form>
+            {{?}}
+        </div>
+    </div>
+    </div>
+<script>generate();</script>    
+#}}
+{{#def.include('./template/main_old')}}
